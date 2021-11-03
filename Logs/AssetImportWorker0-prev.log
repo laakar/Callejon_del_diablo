@@ -15,11 +15,11 @@ C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60479
+60522
 Successfully changed project path to: C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
 C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,52 +36,312 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001415 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.003491 seconds.
-Begin MonoManager ReloadAssembly
+Registered in 0.001434 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 40.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 138.1 MB.
 System memory in use after: 138.3 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3668.
-Total: 2.395600 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.106700 ms MarkObjects: 1.968700 ms  DeleteObjects: 0.050900 ms)
+Total: 2.287600 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.101200 ms MarkObjects: 1.868000 ms  DeleteObjects: 0.051500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008222 seconds
-  Import took 0.011642 seconds .
+  path: Assets/Tilesets/Pasto tiles/pasto inside.png
+  artifactKey: Guid(b88413a0e2a1fba429d30d9892759674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside.png using Guid(b88413a0e2a1fba429d30d9892759674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5346c34b3818b015e512f640abc7f182') in 0.063794 seconds
+  Import took 0.067506 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.588736 seconds.
-  path: Assets/Tilesets
-  artifactKey: Guid(dcbdbddf4faae1e4c9936c05e87f940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets using Guid(dcbdbddf4faae1e4c9936c05e87f940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d42dab93b6b81e1f4c21a835cab397') in 0.005509 seconds
-  Import took 0.009542 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto - Copy.png
+  artifactKey: Guid(29c04bd356cb955429cca2819be230fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto - Copy.png using Guid(29c04bd356cb955429cca2819be230fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc4c625601ee570bc2dfd47ac49665') in 0.025229 seconds
+  Import took 0.030170 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto.prefab
+  artifactKey: Guid(5b9b9af2ce3190243a57397dc349e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto.prefab using Guid(5b9b9af2ce3190243a57397dc349e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18f6d6dc0d38dbc795ca6e347383c21') in 0.010648 seconds
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto.png
+  artifactKey: Guid(a68e3b411a4c21f42b6b6df826a034d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto.png using Guid(a68e3b411a4c21f42b6b6df826a034d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ea849a8a7fa069b1601f492f34789a') in 0.023384 seconds
+  Import took 0.027348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto inside.asset
+  artifactKey: Guid(d943ca947b5888446b54268645c50eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside.asset using Guid(d943ca947b5888446b54268645c50eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb8a81357f2068894bb56e29afd6a0') in 0.004220 seconds
+  Import took 0.007335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto inside - Copy.asset
+  artifactKey: Guid(b6fe9bc87393f1646958f7d9e60cbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside - Copy.asset using Guid(b6fe9bc87393f1646958f7d9e60cbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5744bcf9453b645f444156e86975454') in 0.005230 seconds
+  Import took 0.008136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Tilesets/Pasto tiles/terreno.prefab
+  artifactKey: Guid(87cd3c5c7850696479bf982a9b30d8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/terreno.prefab using Guid(87cd3c5c7850696479bf982a9b30d8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd23866658b2f360c93ed3729b8c7d7') in 0.005181 seconds
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tilesets/Pasto tiles/terreno - Copy.prefab
+  artifactKey: Guid(0232947270f3900479799c2aeef6c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/terreno - Copy.prefab using Guid(0232947270f3900479799c2aeef6c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea61ec9172a0aa76a12d7a520d0852a') in 0.005346 seconds
+  Import took 0.008698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto_culiao.asset
+  artifactKey: Guid(d7c7f265d13c6c749a2f2a6d2cf63197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto_culiao.asset using Guid(d7c7f265d13c6c749a2f2a6d2cf63197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51d149552e63a47d53e22053e96dd99') in 0.005135 seconds
+  Import took 0.008113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Tilesets/Pasto tiles
+  artifactKey: Guid(976642ec7e10bbd4697baf4bf1138bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles using Guid(976642ec7e10bbd4697baf4bf1138bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5241c32b94ca05699ab01c083be1181f') in 0.004276 seconds
+  Import took 0.007184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto - Copy.prefab
+  artifactKey: Guid(6cf7d47e0a2f794418076f2d1c9e4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto - Copy.prefab using Guid(6cf7d47e0a2f794418076f2d1c9e4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9aa2beb2209226b4be2264df630714') in 0.005310 seconds
+  Import took 0.008178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto_culiao - Copy.asset
+  artifactKey: Guid(a0f8f89f28520004fb0ead8cc894cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto_culiao - Copy.asset using Guid(a0f8f89f28520004fb0ead8cc894cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51694c7101d1d2c8589185ec343f2a18') in 0.005329 seconds
+  Import took 0.008675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto inside - Copy.png
+  artifactKey: Guid(39a9d78f4b3143440abf5263b943f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside - Copy.png using Guid(39a9d78f4b3143440abf5263b943f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7767d790fca0370f66a50254c8140ce2') in 0.005161 seconds
+  Import took 0.008271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.336043 seconds.
+  path: Assets/Tilesets/Pasto tiles/Pasto2.prefab
+  artifactKey: Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Pasto2.prefab using Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7c02e2528069917abbbce4ae3b8cc5') in 0.005968 seconds
+  Import took 0.009875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.425183 seconds.
+  path: Assets/Tilesets/Pasto tiles/Pasto2.prefab
+  artifactKey: Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Pasto2.prefab using Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44fc3161a98c0b3295de84e7c72dd5') in 0.002654 seconds
+  Import took 0.006541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044870 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_0.asset
+  artifactKey: Guid(b80a6af8de0952b42be1d516004c2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_0.asset using Guid(b80a6af8de0952b42be1d516004c2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90697e861585935f0cde9a2fb256bf8') in 0.013300 seconds
+  Import took 0.017327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_2.asset
+  artifactKey: Guid(87389d69a237ae94faa4dd799060b8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_2.asset using Guid(87389d69a237ae94faa4dd799060b8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ea6be6d31062c78f7b9ff9ef066a8') in 0.007471 seconds
+  Import took 0.010816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_8.asset
+  artifactKey: Guid(31ab1fc05a07ff349a89a1b0d093d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_8.asset using Guid(31ab1fc05a07ff349a89a1b0d093d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d115b05622f27971c26586d0395925') in 0.007725 seconds
+  Import took 0.010995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_1.asset
+  artifactKey: Guid(4182236a1f9ac2a4bb4e8c107858228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_1.asset using Guid(4182236a1f9ac2a4bb4e8c107858228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af783291354907fa1b9844c045a987c') in 0.006721 seconds
+  Import took 0.009998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_4.asset
+  artifactKey: Guid(b0e989df0602d274b9ee7a5af204239b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_4.asset using Guid(b0e989df0602d274b9ee7a5af204239b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8935e088a5a1ce96a5ef39b9785a3b') in 0.007691 seconds
+  Import took 0.011087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_3.asset
+  artifactKey: Guid(a440f43c20a26e54d91e22396c28fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_3.asset using Guid(a440f43c20a26e54d91e22396c28fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a312eab03d0a6d56aa5f8afa0c262c1b') in 0.006439 seconds
+  Import took 0.009507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_6.asset
+  artifactKey: Guid(73e3f5d8caa84cd45afc0bc20888452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_6.asset using Guid(73e3f5d8caa84cd45afc0bc20888452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3538bc1a7a112b073957c1482c659e63') in 0.006798 seconds
+  Import took 0.010138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_7.asset
+  artifactKey: Guid(ed1f65c2e976e8146abac764ce7e65b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_7.asset using Guid(ed1f65c2e976e8146abac764ce7e65b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f8ccc215d9ae3a56fba512e273250') in 0.007146 seconds
+  Import took 0.010407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_9.asset
+  artifactKey: Guid(b74c32f4f64a9c14797fcbe14a14fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_9.asset using Guid(b74c32f4f64a9c14797fcbe14a14fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389130ccea37770a7ed411c98c88e0c4') in 0.007442 seconds
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_10.asset
+  artifactKey: Guid(dac1bced50224a746866aad498035396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_10.asset using Guid(dac1bced50224a746866aad498035396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4695562bc5d875fd36877bcd3e837ce2') in 0.007195 seconds
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_5.asset
+  artifactKey: Guid(76d7e68b05f3df742a440a425e995dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_5.asset using Guid(76d7e68b05f3df742a440a425e995dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a888e8407bc54f06943e260981abc1') in 0.006951 seconds
+  Import took 0.010113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_11.asset
+  artifactKey: Guid(0e3940cb491e208409c32ee1d2437fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_11.asset using Guid(0e3940cb491e208409c32ee1d2437fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff78de8c4170da826cca8333bff54dee') in 0.006889 seconds
+  Import took 0.010149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001485 seconds.
+  path: Assets/Tilesets/Pasto tiles/Tilemap pasto_11.asset
+  artifactKey: Guid(0e3940cb491e208409c32ee1d2437fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Tilemap pasto_11.asset using Guid(0e3940cb491e208409c32ee1d2437fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff78de8c4170da826cca8333bff54dee') in 0.006263 seconds
+  Import took 0.009497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.805568 seconds.
+  path: Assets/Tilesets/Pasto tiles/Pasto2.prefab
+  artifactKey: Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/Pasto2.prefab using Guid(ee61c471a9122724699e15070c502a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590de3a73df86249a520d167c61fd694') in 0.002929 seconds
+  Import took 0.007065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035599 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto inside.asset
+  artifactKey: Guid(d943ca947b5888446b54268645c50eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside.asset using Guid(d943ca947b5888446b54268645c50eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5cc22e2d652370e62c217e1149e04a') in 0.005074 seconds
+  Import took 0.008641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.693706 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto inside - Copy.asset
+  artifactKey: Guid(b6fe9bc87393f1646958f7d9e60cbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto inside - Copy.asset using Guid(b6fe9bc87393f1646958f7d9e60cbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174d4456575dcaff6e8434ac8537971c') in 0.002396 seconds
+  Import took 0.006181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Tilesets/Pasto tiles/pasto_culiao - Copy.asset
+  artifactKey: Guid(a0f8f89f28520004fb0ead8cc894cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/pasto_culiao - Copy.asset using Guid(a0f8f89f28520004fb0ead8cc894cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e2a39df1fdba138ba2d7067aa4b2fc') in 0.001927 seconds
+  Import took 0.004525 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3688.
+Total: 2.281900 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.098900 ms MarkObjects: 1.896700 ms  DeleteObjects: 0.016300 ms)
+
