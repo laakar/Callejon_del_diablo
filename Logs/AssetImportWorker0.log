@@ -15,11 +15,11 @@ C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61697
+56379
 Successfully changed project path to: C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
 C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,47 +36,887 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002438 seconds.
+Registered in 0.002150 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.906 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003369 seconds.
+Registered in 0.003755 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  0.821 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.3 MB.
 System memory in use after: 140.5 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3669.
-Total: 2.472600 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.004100 ms  DeleteObjects: 0.064400 ms)
+Total: 2.468600 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.003600 ms  DeleteObjects: 0.063600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Metroxd.unity
-  artifactKey: Guid(ec4324a38a913024a905a0ef985d4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Metroxd.unity using Guid(ec4324a38a913024a905a0ef985d4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ddfa6710631b7e9d93ef194b2fb43a') in 0.017445 seconds
-  Import took 0.021647 seconds .
+  path: Assets/Script/Ctm.cs
+  artifactKey: Guid(b9c772c246507514892b8e5b5767a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Ctm.cs using Guid(b9c772c246507514892b8e5b5767a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf000a868d4bda12f523f3bfbeccf73') in 0.024781 seconds
+  Import took 0.029277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Script/Cambio_de_escena.cs
+  artifactKey: Guid(75f3c646cc63ebf4e93c0a1a00c9603f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Cambio_de_escena.cs using Guid(75f3c646cc63ebf4e93c0a1a00c9603f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55bbba1fac0e99fde8cadc05507899d') in 0.005763 seconds
+  Import took 0.009708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.436687 seconds.
+  path: Packages/com.unity.2d.animation
+  artifactKey: Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation using Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa518512abe465e781a54efa05d46a') in 0.006076 seconds
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.173234 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dab36d6e1d8a9ffb974493aa66570b6') in 0.019070 seconds
+  Import took 0.023415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.273191 seconds.
+  path: Packages/com.unity.render-pipelines.universal
+  artifactKey: Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal using Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08795c2ff7aa8a59dc34e295bc15f9') in 0.005574 seconds
+  Import took 0.010194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.450143 seconds.
+  path: Packages/com.unity.render-pipelines.universal/package.json
+  artifactKey: Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/package.json using Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce33b6b2ed395fd9f523f234a636de62') in 0.015870 seconds
+  Import took 0.020200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.489769 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor
+  artifactKey: Guid(53c20613ce8ac478dba8507359e02516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor using Guid(53c20613ce8ac478dba8507359e02516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77a1fe23ea7a4135da78bf158b9dbc3') in 0.006557 seconds
+  Import took 0.011034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051772 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef
+  artifactKey: Guid(c579267770062bf448e75eb160330b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef using Guid(c579267770062bf448e75eb160330b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eebb0dbf02538609caf0df26a0fd42b') in 0.006959 seconds
+  Import took 0.011344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.902162 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/LightExplorer.cs
+  artifactKey: Guid(dc4f14b5fb9db4e99a705e5f81c13cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/LightExplorer.cs using Guid(dc4f14b5fb9db4e99a705e5f81c13cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c355029906476a623f0f004305f7fd28') in 0.005179 seconds
+  Import took 0.009520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004657 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/LightExplorer.cs
+  artifactKey: Guid(dc4f14b5fb9db4e99a705e5f81c13cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/LightExplorer.cs using Guid(dc4f14b5fb9db4e99a705e5f81c13cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c355029906476a623f0f004305f7fd28') in 0.001656 seconds
+  Import took 0.006136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.417999 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/PostProcessDataEditor.cs
+  artifactKey: Guid(aaa0f30bef36d854a9c4918b2bc186e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/PostProcessDataEditor.cs using Guid(aaa0f30bef36d854a9c4918b2bc186e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867326243dc1910c0e8a5ce1473be505') in 0.005612 seconds
+  Import took 0.010012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.460211 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D
+  artifactKey: Guid(b3fb8b56aca55544ca9b8d53bc19e031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D using Guid(b3fb8b56aca55544ca9b8d53bc19e031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2434e037f44fbafe10360254aeb87') in 0.005413 seconds
+  Import took 0.009730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.607381 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/CinemachineUniversalPixelPerfectEditor.cs
+  artifactKey: Guid(3fccaa742ce23c84d99d542d72ccbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/CinemachineUniversalPixelPerfectEditor.cs using Guid(3fccaa742ce23c84d99d542d72ccbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b22bdcde0fe227a12156280c0b42622') in 0.005455 seconds
+  Import took 0.009803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507741 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/CompositeShadowCaster2DEditor.cs
+  artifactKey: Guid(0bc972c43bf3a8347aee5ba065c03157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/CompositeShadowCaster2DEditor.cs using Guid(0bc972c43bf3a8347aee5ba065c03157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e57ee0c15edb888f837dd4bd40d1b4') in 0.006038 seconds
+  Import took 0.010623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305439 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditor.cs
+  artifactKey: Guid(c2bef50bb856f744080489123f6b3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditor.cs using Guid(c2bef50bb856f744080489123f6b3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d71d1b7c3e71a11a0ba74f57e8d1ed') in 0.006267 seconds
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.043280 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditorUtility.cs
+  artifactKey: Guid(62e1d3960d9dba84780a633cbb9f63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditorUtility.cs using Guid(62e1d3960d9dba84780a633cbb9f63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a0ae4b92feb063dd8d9f658aca8cd4') in 0.006222 seconds
+  Import took 0.011420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.477418 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources
+  artifactKey: Guid(95000b81b3fc6af4a916987efa80abbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources using Guid(95000b81b3fc6af4a916987efa80abbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5acfbee6bb1568b709fa9c08331b74') in 0.005378 seconds
+  Import took 0.009824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057193 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Cinemachine.png
+  artifactKey: Guid(ec2f01df0bb1bfe459b5562a9e71c8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Cinemachine.png using Guid(ec2f01df0bb1bfe459b5562a9e71c8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d830a2b38ff3442bb2e384bfecb49a') in 0.040666 seconds
+  Import took 0.045305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/PixelPerfectCamera.png
+  artifactKey: Guid(7cba34d70552e144586a4d3ce4a33de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/PixelPerfectCamera.png using Guid(7cba34d70552e144586a4d3ce4a33de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830cf9bec06aa8611b3dee49bb9de2c') in 0.008633 seconds
+  Import took 0.012788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopRight.png
+  artifactKey: Guid(b42c95bdd7efefc43900dbbedc4a39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopRight.png using Guid(b42c95bdd7efefc43900dbbedc4a39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02ea0b8e882b5439f371a1dd93f785a') in 0.009758 seconds
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapDown.png
+  artifactKey: Guid(02232385c7b444348987d74db8dd7b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapDown.png using Guid(02232385c7b444348987d74db8dd7b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ecfbc9c55336c72652d77a85c6a14') in 0.008753 seconds
+  Import took 0.013163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomRight.png
+  artifactKey: Guid(108e201829ab4214383a5467adbc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomRight.png using Guid(108e201829ab4214383a5467adbc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d45c9b2df3dd9c358e4f961acbd50e') in 0.007881 seconds
+  Import took 0.012064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomLeft.png
+  artifactKey: Guid(fb7e2c1cde476854fb7067dcca74511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomLeft.png using Guid(fb7e2c1cde476854fb7067dcca74511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed444c8fa490e0fb742f07e0446bb46d') in 0.007495 seconds
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopLeft.png
+  artifactKey: Guid(f4f779c88fa8c514d970afbd68ff6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopLeft.png using Guid(f4f779c88fa8c514d970afbd68ff6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e9ab6729a65b46d3825ba307e64a1') in 0.007870 seconds
+  Import took 0.012196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapUp.png
+  artifactKey: Guid(a58fea03b14b2be4295b11f21a57a6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapUp.png using Guid(a58fea03b14b2be4295b11f21a57a6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea4dd37952c1e01b3db6f17ab0ca778') in 0.007705 seconds
+  Import took 0.011647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004216 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons
+  artifactKey: Guid(02ab4512457271c48afa84879f6d3848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons using Guid(02ab4512457271c48afa84879f6d3848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c1ced11ebc750cbc22615c03225c0f') in 0.005709 seconds
+  Import took 0.010763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068403 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/FreeformLight.png
+  artifactKey: Guid(68e5bb6e60bebc046b26d3c3100a523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/FreeformLight.png using Guid(68e5bb6e60bebc046b26d3c3100a523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd8467c3411907bbd85c8793fbf60e6') in 0.016989 seconds
+  Import took 0.021235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/ParametricLight.png
+  artifactKey: Guid(e957854850ccb7140a538f7a93f8761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/ParametricLight.png using Guid(e957854850ccb7140a538f7a93f8761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd79cb333f4af3e92b1411230f0d977') in 0.008616 seconds
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/GlobalLight.png
+  artifactKey: Guid(8f5dd14b314efbe4684329d8a14bbe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/GlobalLight.png using Guid(8f5dd14b314efbe4684329d8a14bbe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35107fad5969642fc3d1c543d4cdc3b') in 0.007853 seconds
+  Import took 0.011988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/PointLight.png
+  artifactKey: Guid(b3ab972b21db85d48ade9657efdd4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/PointLight.png using Guid(b3ab972b21db85d48ade9657efdd4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77751adb28aa4b2a9b9a8388d38b19bb') in 0.007423 seconds
+  Import took 0.011645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/SpriteLight.png
+  artifactKey: Guid(8839c54710da3374f994e12f39b6d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/SpriteLight.png using Guid(8839c54710da3374f994e12f39b6d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d35b84fed9a7a0dce8182cf46910c26') in 0.007385 seconds
+  Import took 0.011691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.146379 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Tests
+  artifactKey: Guid(90821e75f62bb9e4ea9d6111201e1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Tests using Guid(90821e75f62bb9e4ea9d6111201e1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fca6f62ddf7a3d2fad063da955d2dcf') in 0.005676 seconds
+  Import took 0.010286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.294501 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime
+  artifactKey: Guid(79e8584360be43649ad60cb0f180e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime using Guid(79e8584360be43649ad60cb0f180e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3792cfd5cb78dfcbbb61a3465d5905') in 0.005396 seconds
+  Import took 0.009760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072814 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef
+  artifactKey: Guid(15fc0a57446b3144c949da3e2b9737a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef using Guid(15fc0a57446b3144c949da3e2b9737a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae49008c615acbd7c91e92e907f5c87') in 0.005454 seconds
+  Import took 0.009504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.226087 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D
+  artifactKey: Guid(5fbe43a4058e69f4ca1ac77ea6e1bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D using Guid(5fbe43a4058e69f4ca1ac77ea6e1bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adf173a703931a9594ab9d889987dd2') in 0.006119 seconds
+  Import took 0.010963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.025766 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2D.cs
+  artifactKey: Guid(073797afb82c5a1438f328866b10b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2D.cs using Guid(073797afb82c5a1438f328866b10b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68172e6da69e6e3524558afd9fd1118') in 0.005286 seconds
+  Import took 0.009565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007412 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2D.cs
+  artifactKey: Guid(073797afb82c5a1438f328866b10b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2D.cs using Guid(073797afb82c5a1438f328866b10b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68172e6da69e6e3524558afd9fd1118') in 0.001597 seconds
+  Import took 0.005782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.225320 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DDataAuthoring.cs
+  artifactKey: Guid(c64a6e813af443b4864441f640dd1c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DDataAuthoring.cs using Guid(c64a6e813af443b4864441f640dd1c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42faf243eec79cff109a2d867c5abba8') in 0.005742 seconds
+  Import took 0.010194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929701 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DData.cs
+  artifactKey: Guid(11145981673336645838492a2d98e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DData.cs using Guid(11145981673336645838492a2d98e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164f7c84493ef7b6f991301818b2e596') in 0.005341 seconds
+  Import took 0.009469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005700 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DData.cs
+  artifactKey: Guid(11145981673336645838492a2d98e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2DData.cs using Guid(11145981673336645838492a2d98e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164f7c84493ef7b6f991301818b2e596') in 0.001894 seconds
+  Import took 0.006218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388201 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2D.cs
+  artifactKey: Guid(2c8841d47fff7714cb6671d40620dea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Renderer2D.cs using Guid(2c8841d47fff7714cb6671d40620dea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16ab76fd4faf3884d1b13d9dc127b2c') in 0.006060 seconds
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.074548 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes
+  artifactKey: Guid(f74b40ff9aaa99a49a36a3c646ca5917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes using Guid(f74b40ff9aaa99a49a36a3c646ca5917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1934b13231ec548a2ec1286322061ab0') in 0.005304 seconds
+  Import took 0.009628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.897118 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DAuthoring.cs
+  artifactKey: Guid(14716551160f4757bf2332c27a53ec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DAuthoring.cs using Guid(14716551160f4757bf2332c27a53ec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedff330b8f1dbdc7e893be35c239c94') in 0.005551 seconds
+  Import took 0.018962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.130939 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DBlendStyle.cs
+  artifactKey: Guid(f4caf3da21d83644ea1c04986c6cea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DBlendStyle.cs using Guid(f4caf3da21d83644ea1c04986c6cea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50015e3abcda452ac4c1110f13269032') in 0.005980 seconds
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.375576 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DCullResult.cs
+  artifactKey: Guid(704a37a0ce184459805c0b7719a25a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DCullResult.cs using Guid(704a37a0ce184459805c0b7719a25a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccff26cca0fba9fde14e3848351a9031') in 0.005892 seconds
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.805784 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DManager.cs
+  artifactKey: Guid(d8151411c155429aa167611d958fbb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DManager.cs using Guid(d8151411c155429aa167611d958fbb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1213a7a189aeddfb8e6d401a1c8615') in 0.005757 seconds
+  Import took 0.010633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570441 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DPoint.cs
+  artifactKey: Guid(1202285d83908604784202e4a57aa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DPoint.cs using Guid(1202285d83908604784202e4a57aa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f186e4375d842b0b69d609e20af3a3') in 0.005554 seconds
+  Import took 0.009881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022277 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DShape.cs
+  artifactKey: Guid(074e9a8a8d8919e469b8dd79c7dc69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DShape.cs using Guid(074e9a8a8d8919e469b8dd79c7dc69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add21af026b24a260199cf54dca289c5') in 0.012273 seconds
+  Import took 0.016670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591159 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DStub.cs
+  artifactKey: Guid(6b1b9051bda976648ac2ccca324820f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Light2DStub.cs using Guid(6b1b9051bda976648ac2ccca324820f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efebdc8dac13cedb0f992c393bba2032') in 0.005660 seconds
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.950003 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/LightUtility.cs
+  artifactKey: Guid(fd90885134624894ba845bbc692698a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/LightUtility.cs using Guid(fd90885134624894ba845bbc692698a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77567a37ce9c5721ddb91062979bff7e') in 0.005681 seconds
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.607311 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data
+  artifactKey: Guid(d59f1663563e245fabce035da7cecd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data using Guid(d59f1663563e245fabce035da7cecd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9206fe60989c7c013e08253c744cb9') in 0.006187 seconds
+  Import took 0.010631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.889783 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor
+  artifactKey: Guid(643e7b93cc1f804408a784cc2bc2c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor using Guid(643e7b93cc1f804408a784cc2bc2c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f1bf615dcda230ca098b9e308f3210') in 0.006308 seconds
+  Import took 0.010960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.990041 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary
+  artifactKey: Guid(2de5b472450204ae2853db2cb6a2540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary using Guid(2de5b472450204ae2853db2cb6a2540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d79e57c33c22eaf56eb4846a810dcc') in 0.014493 seconds
+  Import took 0.019013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057505 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef
+  artifactKey: Guid(ab67fb10353d84448ac887a7367cbda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef using Guid(ab67fb10353d84448ac887a7367cbda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a35078f7a4cff5474e38395ebe19de8') in 0.005340 seconds
+  Import took 0.009559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.412071 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders
+  artifactKey: Guid(248877dd7078443d6b51abf21ee7d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders using Guid(248877dd7078443d6b51abf21ee7d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7a697168cf54701af126bf7b1117a5') in 0.005946 seconds
+  Import took 0.010358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064363 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef
+  artifactKey: Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef using Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcf4ccd8f62beca0655b25cff49bc89') in 0.013919 seconds
+  Import took 0.018171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.312345 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D
+  artifactKey: Guid(e674d0c2643d94245b5da6cc11dfe0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D using Guid(e674d0c2643d94245b5da6cc11dfe0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ce77daf2f51bdbc4e3f1c397cf1617') in 0.010739 seconds
+  Import took 0.015277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845017 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D-Point-Volumetric.shader
+  artifactKey: Guid(c7d04ca57e5449d49ad9cee1c604bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D-Point-Volumetric.shader using Guid(c7d04ca57e5449d49ad9cee1c604bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f20048eff63136e0635134138883094') in 0.007706 seconds
+  Import took 0.012320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097835 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D-Point-Volumetric.shader
+  artifactKey: Guid(c7d04ca57e5449d49ad9cee1c604bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D-Point-Volumetric.shader using Guid(c7d04ca57e5449d49ad9cee1c604bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f20048eff63136e0635134138883094') in 0.002053 seconds
+  Import took 0.006566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.926230 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Tests/Editor
+  artifactKey: Guid(64cd425d88561ea488dfaf36cceaac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Tests/Editor using Guid(64cd425d88561ea488dfaf36cceaac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a45a41d81b3c53400e5de52243e845a') in 0.001921 seconds
+  Import took 0.006201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064703 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef
+  artifactKey: Guid(36d514892e55d4340b470c29fcab8b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef using Guid(36d514892e55d4340b470c29fcab8b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5a07d16f73c2c81261ed0d3f498cc') in 0.005507 seconds
+  Import took 0.009892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584814 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Tests/Editor/EditorTests.cs
+  artifactKey: Guid(42af586c09f391941a2a8a7bd5164b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Tests/Editor/EditorTests.cs using Guid(42af586c09f391941a2a8a7bd5164b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194dfb7e4592cbb2c2d4a64e8e968995') in 0.005175 seconds
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001777 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Tests/Editor/EditorTests.cs
+  artifactKey: Guid(42af586c09f391941a2a8a7bd5164b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Tests/Editor/EditorTests.cs using Guid(42af586c09f391941a2a8a7bd5164b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194dfb7e4592cbb2c2d4a64e8e968995') in 0.001494 seconds
+  Import took 0.005467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.352339 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures
+  artifactKey: Guid(6970e3730c799f44ab472c8aa6c4b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures using Guid(6970e3730c799f44ab472c8aa6c4b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ca903ca1b89df24c562ccd5fcea05c') in 0.014332 seconds
+  Import took 0.018706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.851194 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16
+  artifactKey: Guid(bbde6b5e0eaaff14c98c49626833992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16 using Guid(bbde6b5e0eaaff14c98c49626833992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ce2d6b7723a612c64a2e3f8683a963') in 0.005679 seconds
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.061795 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L
+  artifactKey: Guid(4eb46e164ba847b4396d73b7491c99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L using Guid(4eb46e164ba847b4396d73b7491c99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1072dd21e3fb204f9ab758a94b8d4d5f') in 0.013811 seconds
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038769 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png
+  artifactKey: Guid(81200413a40918d4d8702e94db29911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png using Guid(81200413a40918d4d8702e94db29911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55262de616284cae89a7e576c55542fd') in 0.022378 seconds
+  Import took 0.027508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png
+  artifactKey: Guid(bfed3e498947fcb4890b7f40f54d85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png using Guid(bfed3e498947fcb4890b7f40f54d85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c0168abd412d91b2b565ee4340be09') in 0.009906 seconds
+  Import took 0.014350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png
+  artifactKey: Guid(179f794063d2a66478e6e726f84a65bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png using Guid(179f794063d2a66478e6e726f84a65bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58ac868229b6a5793537e22a481d1f') in 0.010270 seconds
+  Import took 0.014410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png
+  artifactKey: Guid(c94ad916058dff743b0f1c969ddbe660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png using Guid(c94ad916058dff743b0f1c969ddbe660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b42c108db4040dac4f3e0ea372735cb') in 0.009166 seconds
+  Import took 0.013834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png
+  artifactKey: Guid(179f794063d2a66478e6e726f84a65bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png using Guid(179f794063d2a66478e6e726f84a65bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58ac868229b6a5793537e22a481d1f') in 0.008253 seconds
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png
+  artifactKey: Guid(c989e1ed85cf7154caa922fec53e6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png using Guid(c989e1ed85cf7154caa922fec53e6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddba1c0a05a26111665c7f5bcfe8bc7') in 0.011113 seconds
+  Import took 0.015904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png
+  artifactKey: Guid(d18a24d7b4ed50f4387993566d9d3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png using Guid(d18a24d7b4ed50f4387993566d9d3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864f7917ab96fd8375af6221e552c6d5') in 0.010638 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png
+  artifactKey: Guid(2ca97df9d1801e84a8a8f2c53cb744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png using Guid(2ca97df9d1801e84a8a8f2c53cb744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bad104b153f3ecc1cbd61afe562147') in 0.007857 seconds
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png
+  artifactKey: Guid(10b6c6d22e73dea46a8ab36b6eebd629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png using Guid(10b6c6d22e73dea46a8ab36b6eebd629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5628459fe8748bba2edd1286a6303d58') in 0.008402 seconds
+  Import took 0.012931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png
+  artifactKey: Guid(ff47e5a0f105eb34883b973e51f4db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png using Guid(ff47e5a0f105eb34883b973e51f4db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e87d69eaa2b6374e5717ed44eb2dcf') in 0.008297 seconds
+  Import took 0.012838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png
+  artifactKey: Guid(d4044ea2490d63b43aa1765f8efbf8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png using Guid(d4044ea2490d63b43aa1765f8efbf8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72547557dfdc6c79ff98c6a631e2c9cf') in 0.008944 seconds
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png
+  artifactKey: Guid(a2ec5cbf5a9b64345ad3fab0912ddf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png using Guid(a2ec5cbf5a9b64345ad3fab0912ddf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75f8ea07c4ebca4209a0316d697b640') in 0.007721 seconds
+  Import took 0.011993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png
+  artifactKey: Guid(d36f0fe53425e08499a2333cf423634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png using Guid(d36f0fe53425e08499a2333cf423634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53e8b47be5456252e9233bfde650894') in 0.007745 seconds
+  Import took 0.012238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png
+  artifactKey: Guid(d5c9b274310e5524ebe32a4e4da3df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png using Guid(d5c9b274310e5524ebe32a4e4da3df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbeec07fc3d705df1ce82a0e30d0c1a') in 0.008556 seconds
+  Import took 0.013097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png
+  artifactKey: Guid(f69770e54f2823f43badf77916acad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png using Guid(f69770e54f2823f43badf77916acad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b771321bdd0380c032a60e71202066') in 0.008241 seconds
+  Import took 0.012457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png
+  artifactKey: Guid(47a45908f6db0cb44a0d5e961143afec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png using Guid(47a45908f6db0cb44a0d5e961143afec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9499afd74504ab49b52810b8ee9865') in 0.008006 seconds
+  Import took 0.012273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png
+  artifactKey: Guid(9d92991794bb5864c8085468b97aa067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png using Guid(9d92991794bb5864c8085468b97aa067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce45dbd657be2f13b0124e31dee48638') in 0.009239 seconds
+  Import took 0.013501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png
+  artifactKey: Guid(1134690bf9216164dbc75050e35b7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png using Guid(1134690bf9216164dbc75050e35b7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d0423e924670d95747b25dbec752eb') in 0.009391 seconds
+  Import took 0.013546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png
+  artifactKey: Guid(d512512f4af60a442ab3458489412954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png using Guid(d512512f4af60a442ab3458489412954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa8252ae279e4f493bf7fd1d94f348d') in 0.010568 seconds
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png
+  artifactKey: Guid(c9bd74624d8070f429e3f46d161f9204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png using Guid(c9bd74624d8070f429e3f46d161f9204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884285f0c168dd3d5b62c8b7247cfc8a') in 0.008050 seconds
+  Import took 0.012285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png
+  artifactKey: Guid(7ce2118f74614a94aa8a0cdf2e6062c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png using Guid(7ce2118f74614a94aa8a0cdf2e6062c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f27449f23967db18525cafc0a7810c') in 0.007868 seconds
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png
+  artifactKey: Guid(d50c5e07c9911a74982bddf7f3075e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png using Guid(d50c5e07c9911a74982bddf7f3075e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a96e199c5cc7ae96ff63ed041f6ad38') in 0.007343 seconds
+  Import took 0.011616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png
+  artifactKey: Guid(39451254daebd6d40b52899c1f1c0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png using Guid(39451254daebd6d40b52899c1f1c0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b75ef38588b878e65a81826e2f7a86') in 0.007239 seconds
+  Import took 0.011224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png
+  artifactKey: Guid(4dcc0502f8586f941b5c4a66717205e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png using Guid(4dcc0502f8586f941b5c4a66717205e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cc2c851511210caf14ac9a984ef427') in 0.007771 seconds
+  Import took 0.011952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png
+  artifactKey: Guid(14381521ff11cb74abe3fe65401c23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png using Guid(14381521ff11cb74abe3fe65401c23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b44f838fc8dad2ab2455a45b618667') in 0.007966 seconds
+  Import took 0.012090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png
+  artifactKey: Guid(071e954febf155243a6c81e48f452644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png using Guid(071e954febf155243a6c81e48f452644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ad1058addbf614da94ae5b63e6c18') in 0.007667 seconds
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png
+  artifactKey: Guid(896d9004736809c4fb5973b7c12eb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png using Guid(896d9004736809c4fb5973b7c12eb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fcb7376056e11b6d9dd0ca0c46804d') in 0.009693 seconds
+  Import took 0.014037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png
+  artifactKey: Guid(ed5ea7ce59ca8ec4f9f14bf470a30f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png using Guid(ed5ea7ce59ca8ec4f9f14bf470a30f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776e4096f69f6bd6f67fcb721f4ed236') in 0.007981 seconds
+  Import took 0.012486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png
+  artifactKey: Guid(fa042edbfc40fbd4bad0ab9d505b1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png using Guid(fa042edbfc40fbd4bad0ab9d505b1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc44d56965bb3784496a1016253d1c3') in 0.007594 seconds
+  Import took 0.011808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png
+  artifactKey: Guid(fc3fa8f108657e14486697c9a84ccfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png using Guid(fc3fa8f108657e14486697c9a84ccfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8763704502486096d48018c28a08e574') in 0.007405 seconds
+  Import took 0.011398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png
+  artifactKey: Guid(96aaab9cc247d0b4c98132159688c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png using Guid(96aaab9cc247d0b4c98132159688c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442fa43f11d99186ac10e70d4a4eeb9b') in 0.007503 seconds
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png
+  artifactKey: Guid(1c3c6d69a645b804fa232004b96b7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png using Guid(1c3c6d69a645b804fa232004b96b7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708334c9876bd9c3aafa335ea1350a70') in 0.008041 seconds
+  Import took 0.012300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png
+  artifactKey: Guid(e63eef8f54aa9dc4da9a5ac094b503b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png using Guid(e63eef8f54aa9dc4da9a5ac094b503b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b3532edd43a081630bdb87cfe0f84d') in 0.007973 seconds
+  Import took 0.012035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.776217 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons
+  artifactKey: Guid(e5f7648dfb00c83428a633efe7759b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons using Guid(e5f7648dfb00c83428a633efe7759b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baab474553fdcf03f2bd2f66b869f527') in 0.005615 seconds
+  Import took 0.010585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048461 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png
+  artifactKey: Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png using Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a725a6ea0329ea339c99805875136930') in 0.020634 seconds
+  Import took 0.025083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/PointLight.png
+  artifactKey: Guid(e1feb27120f96ae4ea48e922cbfd93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/PointLight.png using Guid(e1feb27120f96ae4ea48e922cbfd93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccad9c117cefea06a04208e3009abc05') in 0.012867 seconds
+  Import took 0.016896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png
+  artifactKey: Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png using Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75238016f0372f75c3091d325afbbfba') in 0.013477 seconds
+  Import took 0.017437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/ParametricLight.png
+  artifactKey: Guid(302e68dd45b9b2d4194ff0f7f454436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/ParametricLight.png using Guid(302e68dd45b9b2d4194ff0f7f454436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc7ed852cad253d55ec8a9eb3180fe') in 0.011640 seconds
+  Import took 0.015920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png
+  artifactKey: Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png using Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142bc8d6638ba04838d8907a1f0b17a') in 0.012554 seconds
+  Import took 0.016853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png
+  artifactKey: Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png using Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142bc8d6638ba04838d8907a1f0b17a') in 0.004465 seconds
+  Import took 0.008475 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
