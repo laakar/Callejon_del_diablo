@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 32694 MB
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,36 +11,48 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
+C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 52180
 Successfully changed project path to: C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
 C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 44.22 ms, found 3 plugins.
+=======
+52132
+Successfully changed project path to: C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
+C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.09 ms, found 3 plugins.
+>>>>>>> 137c5004178fd28776e2154b206ca2c2a9acc8d2
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Franco/Desktop/Unab/Callejon_del_diablo/Assets
+[Subsystems] Discovering subsystems at path C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
     Vendor:   
-    VRAM:     8043 MB
-    Driver:   30.0.14.9649
+    VRAM:     6103 MB
+    Driver:   27.20.22025.1006
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+>>>>>>> 137c5004178fd28776e2154b206ca2c2a9acc8d2
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.001901 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -58,11 +70,29 @@ Refreshing native plugins compatible for Editor in 48.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.904 seconds
+=======
+Registered in 0.001410 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+>>>>>>> 137c5004178fd28776e2154b206ca2c2a9acc8d2
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
@@ -86,5 +116,432 @@ Received Import Request.
   artifactKey: Guid(49ed1a9cee0be7545a2e2d5cb6f3b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Callejonxd.unity using Guid(49ed1a9cee0be7545a2e2d5cb6f3b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c620762e059fcb94f9eafd3cababa3bc') in 0.007838 seconds
   Import took 0.012675 seconds .
+=======
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3671.
+Total: 2.277000 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.109700 ms MarkObjects: 1.843300 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Script/xd.cs
+  artifactKey: Guid(57a4b4441e13f634ab82a8c23f6e9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/xd.cs using Guid(57a4b4441e13f634ab82a8c23f6e9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e3142c7a5dc6411a132d2a67bd355d') in 0.020562 seconds
+  Import took 0.024834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.818749 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c69da3923901ead621d43d458fb4100') in 0.020982 seconds
+  Import took 0.025301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.718465 seconds.
+  path: Assets/Scenes/Callejonxd.unity
+  artifactKey: Guid(49ed1a9cee0be7545a2e2d5cb6f3b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Callejonxd.unity using Guid(49ed1a9cee0be7545a2e2d5cb6f3b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c3a016034010f46d687f4cb19026e8') in 0.006038 seconds
+  Import took 0.010137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.773762 seconds.
+  path: Assets/Scenes/Casaxd.unity
+  artifactKey: Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Casaxd.unity using Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53451c20bac92e51b21b85bd43e1a9e') in 0.005397 seconds
+  Import took 0.011572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874661 seconds.
+  path: Assets/Scenes/Pruebas.unity
+  artifactKey: Guid(27d9ac8679c64164b8780b3beb6e0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pruebas.unity using Guid(27d9ac8679c64164b8780b3beb6e0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbed2366d0a0403cb031f4725b3b613') in 0.005150 seconds
+  Import took 0.009368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.003859 seconds.
+  path: Assets/Tilesets/Pasto tiles/tilemap casa.png
+  artifactKey: Guid(c4a5389de712acf4d8bdfa8b4642ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/tilemap casa.png using Guid(c4a5389de712acf4d8bdfa8b4642ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcde37142a0ca3d42dff96eeef08afa') in 0.071064 seconds
+  Import took 0.075210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.154711 seconds.
+  path: Assets/Tilesets/casa afuera tiles
+  artifactKey: Guid(db7632ad8f3495a4bb2b38a06731c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles using Guid(db7632ad8f3495a4bb2b38a06731c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b8ac5e7e6036b866e1e932db17185') in 0.006573 seconds
+  Import took 0.010801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047152 seconds.
+  path: Assets/Tilesets/casa afuera tiles/New Palette.prefab
+  artifactKey: Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/New Palette.prefab using Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdf005115ef33ec7179b6af5fabff80') in 0.010324 seconds
+  Import took 0.014817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.316755 seconds.
+  path: Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab
+  artifactKey: Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab using Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9bdecc7602fff691370635bc3f512b') in 0.009587 seconds
+  Import took 0.013935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.860072 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa.png
+  artifactKey: Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa.png using Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dfbe08044900774cb23daa5f0cfdc0') in 0.014707 seconds
+  Import took 0.019759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.043061 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa.png
+  artifactKey: Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa.png using Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a196a6cd21a270752c45ff6e12d615') in 0.013438 seconds
+  Import took 0.017437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.350206 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa.png
+  artifactKey: Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa.png using Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6621fa477bded84dc5f913dd1a13875c') in 0.031774 seconds
+  Import took 0.036172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.709909 seconds.
+  path: Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab
+  artifactKey: Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab using Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4a427766a656305272ea95891e0cee') in 0.004112 seconds
+  Import took 0.008318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_15.asset
+  artifactKey: Guid(c31ad78fb5afffc419da7dc23f814303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_15.asset using Guid(c31ad78fb5afffc419da7dc23f814303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929729ae34f4bb3530c9f3c0e7fe44d2') in 0.017344 seconds
+  Import took 0.021625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_14.asset
+  artifactKey: Guid(9a4c0f24af460c34983d283662b1e4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_14.asset using Guid(9a4c0f24af460c34983d283662b1e4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0c20a89f27910b22f5dd8ac23493e8') in 0.010722 seconds
+  Import took 0.014469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_2.asset
+  artifactKey: Guid(5efad2376c0837e4da54fb40893ab6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_2.asset using Guid(5efad2376c0837e4da54fb40893ab6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c9299d271a31c36059303b9fe7ce0d') in 0.008046 seconds
+  Import took 0.012020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_3.asset
+  artifactKey: Guid(8b913e290d47f4d45b3a43720b46ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_3.asset using Guid(8b913e290d47f4d45b3a43720b46ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafa50f479157c22ac8eb589c60e7504') in 0.009605 seconds
+  Import took 0.013277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_0.asset
+  artifactKey: Guid(9befe24e55ca82f4c89ce8f20a0f3370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_0.asset using Guid(9befe24e55ca82f4c89ce8f20a0f3370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc7dae24265d51fa5e7c275987efa8a') in 0.008602 seconds
+  Import took 0.012101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_16.asset
+  artifactKey: Guid(10acb9c2780d513439ce837a01508e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_16.asset using Guid(10acb9c2780d513439ce837a01508e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c2b7c51e5cad7aebcee4cec3eb9ca1') in 0.008252 seconds
+  Import took 0.012213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_19.asset
+  artifactKey: Guid(e99236e04c20e824397efe902cff11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_19.asset using Guid(e99236e04c20e824397efe902cff11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d764d308e14f77b08299d4cb708e64') in 0.007385 seconds
+  Import took 0.011062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_7.asset
+  artifactKey: Guid(f2ec3162748152943a26a8436b99db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_7.asset using Guid(f2ec3162748152943a26a8436b99db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a193b045ac4233b803203e31ed3cab8c') in 0.007404 seconds
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_17.asset
+  artifactKey: Guid(4b7ebcc183c8dd247a0d9b47f43cbf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_17.asset using Guid(4b7ebcc183c8dd247a0d9b47f43cbf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db365f556ecaab426df71057304d5129') in 0.008153 seconds
+  Import took 0.011467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_4.asset
+  artifactKey: Guid(ec3e0eb619ab2f34f9d3cb977aad578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_4.asset using Guid(ec3e0eb619ab2f34f9d3cb977aad578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205b9f7c85416c543082e6d5cf2bcb6') in 0.008725 seconds
+  Import took 0.012587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_12.asset
+  artifactKey: Guid(bbf5c11ffac277d478b2fc32901f7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_12.asset using Guid(bbf5c11ffac277d478b2fc32901f7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa240f7c3f20cbfc93b5fbd28ad193fc') in 0.008528 seconds
+  Import took 0.011977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_11.asset
+  artifactKey: Guid(0da7ac0c99bfc184ca1b47f80a12a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_11.asset using Guid(0da7ac0c99bfc184ca1b47f80a12a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295783b06735727a00339ccf278c6433') in 0.007593 seconds
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_10.asset
+  artifactKey: Guid(bacc4c30bb4d9e04eb1e7c6f48695e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_10.asset using Guid(bacc4c30bb4d9e04eb1e7c6f48695e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62fdd6cea385e3259dc043b13a4d963') in 0.008057 seconds
+  Import took 0.011658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_6.asset
+  artifactKey: Guid(db1c6f7bf5ff57e4bb896ac80278dab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_6.asset using Guid(db1c6f7bf5ff57e4bb896ac80278dab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f93a70a4aaad474e0f61723d0205e') in 0.007698 seconds
+  Import took 0.011250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_13.asset
+  artifactKey: Guid(723eda99557667f42aa2426e6fdf8096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_13.asset using Guid(723eda99557667f42aa2426e6fdf8096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8859277690ebe8dd7413087052aef62c') in 0.008378 seconds
+  Import took 0.012067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_8.asset
+  artifactKey: Guid(66a5fcaa9b19eb0488da4dde0a3ad0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_8.asset using Guid(66a5fcaa9b19eb0488da4dde0a3ad0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42454cb96f9704f85cca1bba2a6f25') in 0.007474 seconds
+  Import took 0.010792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_9.asset
+  artifactKey: Guid(251458f77a7167741b0fcdf683b4bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_9.asset using Guid(251458f77a7167741b0fcdf683b4bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be82b7751e99e11e67357e98801c705') in 0.008631 seconds
+  Import took 0.012553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_18.asset
+  artifactKey: Guid(c3b136720a075c241814655c4ee4fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_18.asset using Guid(c3b136720a075c241814655c4ee4fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca0404dac12cbe828f6668df6bdd24') in 0.008800 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_1.asset
+  artifactKey: Guid(c92bc9de938520b4f9214cd136478fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_1.asset using Guid(c92bc9de938520b4f9214cd136478fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffc4dd985b89c5d1e86473902888c9f') in 0.008144 seconds
+  Import took 0.011926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa_5.asset
+  artifactKey: Guid(c05d629500d061f44ac415dd829f6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa_5.asset using Guid(c05d629500d061f44ac415dd829f6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9e5a774d2c94f9337b922288b8dfef') in 0.008118 seconds
+  Import took 0.011946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.193373 seconds.
+  path: Assets/Tilesets/Pasto tiles/inner corner.png
+  artifactKey: Guid(19e49338aa4cbc04cba4a4cb67d78c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Pasto tiles/inner corner.png using Guid(19e49338aa4cbc04cba4a4cb67d78c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a097542982736678c75f991ec18137') in 0.010656 seconds
+  Import took 0.015207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.558891 seconds.
+  path: Assets/Tilesets/casa afuera tiles/inner corner.png
+  artifactKey: Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/inner corner.png using Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ffd5031e94e2dc2a3835982916c791') in 0.009097 seconds
+  Import took 0.013282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.946926 seconds.
+  path: Assets/Tilesets/casa afuera tiles/inner corner.png
+  artifactKey: Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/inner corner.png using Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4278d5c23724ddec4f3bcb7135f26e71') in 0.010185 seconds
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.774478 seconds.
+  path: Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab
+  artifactKey: Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/Casa afuera tileset.prefab using Guid(c40d13caa2bc4904684763ea938d3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42fd325c6d5fdbd2e04c62235f1d989') in 0.003025 seconds
+  Import took 0.006767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Tilesets/casa afuera tiles/inner corner.asset
+  artifactKey: Guid(ea2a85797258e3c45b6a1e994f746a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/inner corner.asset using Guid(ea2a85797258e3c45b6a1e994f746a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e62b6230f9c71656d44398cbdf70c0f') in 0.007926 seconds
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.115603 seconds.
+  path: Assets/Tilesets/casa afuera tiles/inner corner.png
+  artifactKey: Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/inner corner.png using Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4327baba3ebbd0607b0e80b2b1e1fa50') in 0.010793 seconds
+  Import took 0.014963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.762846 seconds.
+  path: Assets/Tilesets/casa afuera tiles/inner corner.png
+  artifactKey: Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/inner corner.png using Guid(5f2a540b5aa1f8644a26a84e6097f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c7380e6d521095f728e80bdf56ff4c') in 0.009896 seconds
+  Import took 0.014229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.320993 seconds.
+  path: Assets/Tilesets/casa afuera tiles/tilemap casa.png
+  artifactKey: Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/casa afuera tiles/tilemap casa.png using Guid(681228ed222e0d34fb91ada8d9e81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ae95c159a174b79b858c96d854e223') in 0.039359 seconds
+  Import took 0.043154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 518.142195 seconds.
+  path: Assets/Script/pasto.prefab
+  artifactKey: Guid(3c6347419894e3e41ae681cafd450d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/pasto.prefab using Guid(3c6347419894e3e41ae681cafd450d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ef6e88b95ef2dd33067c92d95596f4') in 0.009082 seconds
+  Import took 0.013456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.074795 seconds.
+  path: Assets/Script/Enemigo y personaje
+  artifactKey: Guid(aee6432823cbbfd429d4ca6d6ccfd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Enemigo y personaje using Guid(aee6432823cbbfd429d4ca6d6ccfd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fed67702cdb57fd6290cb63a1ccabf') in 0.005241 seconds
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.373218 seconds.
+  path: Assets/Script/Camara.cs
+  artifactKey: Guid(6c0a2c5db5cf27d4dbe88983e332dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Camara.cs using Guid(6c0a2c5db5cf27d4dbe88983e332dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d37bcf4b5183b254443bd65786b53a') in 0.004855 seconds
+  Import took 0.009890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Script/Camara.cs
+  artifactKey: Guid(6c0a2c5db5cf27d4dbe88983e332dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Camara.cs using Guid(6c0a2c5db5cf27d4dbe88983e332dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d37bcf4b5183b254443bd65786b53a') in 0.002029 seconds
+  Import took 0.005061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.695414 seconds.
+  path: Assets/Script/IA.cs
+  artifactKey: Guid(5b388d68f1b619e41a61c42a96320d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/IA.cs using Guid(5b388d68f1b619e41a61c42a96320d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbe1055257f11843c7ecb5a2bff9bc') in 0.004994 seconds
+  Import took 0.008724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Script/IA.cs
+  artifactKey: Guid(5b388d68f1b619e41a61c42a96320d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/IA.cs using Guid(5b388d68f1b619e41a61c42a96320d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbe1055257f11843c7ecb5a2bff9bc') in 0.001624 seconds
+  Import took 0.004354 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 2.042500 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.717800 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3693.
+Total: 2.043700 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.065800 ms MarkObjects: 1.727300 ms  DeleteObjects: 0.014200 ms)
+>>>>>>> 137c5004178fd28776e2154b206ca2c2a9acc8d2
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
