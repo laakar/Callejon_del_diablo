@@ -1,106 +1,537 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 32694 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16242 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+D:\unity\2020.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
+D:/unity/Callejon_del_diablo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52450
-Successfully changed project path to: C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
-C:/Users/Franco/Desktop/Unab/Callejon_del_diablo
+56542
+Successfully changed project path to: D:/unity/Callejon_del_diablo
+D:/unity/Callejon_del_diablo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Franco/Desktop/Unab/Callejon_del_diablo/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/Callejon_del_diablo/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
     Vendor:   
-    VRAM:     8043 MB
-    Driver:   30.0.14.9649
+    VRAM:     8081 MB
+    Driver:   30.0.14.7135
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Mono path[0] = 'D:/unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001692 seconds.
+Register platform support module: D:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002033 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  1.817 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003451 seconds.
+Registered in 0.003856 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  1.116 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.3 MB.
-System memory in use after: 140.5 MB.
+System memory in use before: 140.2 MB.
+System memory in use after: 140.4 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3668.
-Total: 2.540000 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.057400 ms  DeleteObjects: 0.057700 ms)
+Total: 5.479300 ms (FindLiveObjects: 0.595700 ms CreateObjectMapping: 0.307900 ms MarkObjects: 4.461600 ms  DeleteObjects: 0.112300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Casaxd.unity
-  artifactKey: Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Casaxd.unity using Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baccc4066b4425118eab74fac17cc182') in 0.016676 seconds
-  Import took 0.020677 seconds .
+  path: Assets/LuzAsset_Renderer.asset
+  artifactKey: Guid(448b13cde16ec7c49b22fff0320e5257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LuzAsset_Renderer.asset using Guid(448b13cde16ec7c49b22fff0320e5257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9497bdc60365735c6d0b74cf036a8b24') in 0.059847 seconds
+  Import took 0.065834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.726274 seconds.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2dRenderer.asset
+  artifactKey: Guid(302496d2a5b778d4bb55bcb27d3248df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2dRenderer.asset using Guid(302496d2a5b778d4bb55bcb27d3248df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d801fc7f3e8f1506d637b9f320215d3') in 0.002635 seconds
+  Import took 0.006960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/LuzAsset.asset
+  artifactKey: Guid(3d261ffdd3f3c3c4ab76d94afa977993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LuzAsset.asset using Guid(3d261ffdd3f3c3c4ab76d94afa977993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa32ea1f326f122019fe624c42dd6f0') in 0.002607 seconds
+  Import took 0.007051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb1a78b56e6fb6e2e0d07bfb6fa19a') in 0.032422 seconds
-  Import took 0.037630 seconds .
+Start importing Assets/New Terrain.asset using Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c69da3923901ead621d43d458fb4100') in 0.015064 seconds
+  Import took 0.020166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001337 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(521ac41b67420874d8748ba2255606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb1a78b56e6fb6e2e0d07bfb6fa19a') in 0.005695 seconds
-  Import took 0.009879 seconds .
+  Time since last request: 0.000206 seconds.
+  path: Assets/Square.asset
+  artifactKey: Guid(1bea103cb9305374ab494beec5a7168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Square.asset using Guid(1bea103cb9305374ab494beec5a7168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef589344376f9d721a3e701e08a7491') in 0.048720 seconds
+  Import took 0.052912 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 350.039246 seconds.
-  path: Assets/Scenes/Casaxd.unity
-  artifactKey: Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Casaxd.unity using Guid(f4ff8f4804636eb43a99d37c12d41b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf20b7dd6adf7b4fd9c26c21b0fe7f4') in 0.002042 seconds
-  Import took 0.006944 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Square.png
+  artifactKey: Guid(07d7bda66bea09f44b3cfa6dec9cff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Square.png using Guid(07d7bda66bea09f44b3cfa6dec9cff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ed24ae61104b882b5c08fed8eee3f9') in 0.063253 seconds
+  Import took 0.067831 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/xd.png
+  artifactKey: Guid(d0eeca6d905fd6b4ea057ada20fe6282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/xd.png using Guid(d0eeca6d905fd6b4ea057ada20fe6282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b4687b0c8ac76d1487746b3554082c') in 0.007380 seconds
+  Import took 0.012117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.872948 seconds.
+  path: Assets/sprites_001 (3).png
+  artifactKey: Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (3).png using Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dcd040fc4959ac1aa7abd82af9aaf1') in 0.021949 seconds
+  Import took 0.027255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.252713 seconds.
+  path: Assets/sprites_001 (2).png
+  artifactKey: Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (2).png using Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de91ed448d26eebb873d15bc283539c') in 0.012827 seconds
+  Import took 0.017917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.945041 seconds.
+  path: Assets/sprites_001 (3).png
+  artifactKey: Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (3).png using Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a40f611e7a43e9c2961a0a13f9b508') in 0.015413 seconds
+  Import took 0.021130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.942904 seconds.
+  path: Assets/sprites_001 (2).png
+  artifactKey: Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (2).png using Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a92c6c71e58084428341efd9a69985') in 0.015070 seconds
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.626664 seconds.
+  path: Assets/animations
+  artifactKey: Guid(05ff48466b305e14da092429412339e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations using Guid(05ff48466b305e14da092429412339e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11dc683d3077d06bc3d3c6d45f7dc82') in 0.001519 seconds
+  Import took 0.006915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005515 seconds.
+  path: Assets/sprites_001 (2).png
+  artifactKey: Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (2).png using Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca30b9b6b0dea9f430cb25640db462c') in 0.013896 seconds
+  Import took 0.019832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.868956 seconds.
+  path: Assets/animations/sprites_001 (2)_0.controller
+  artifactKey: Guid(1dd96181de67a3247a1a4e4fa280bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/sprites_001 (2)_0.controller using Guid(1dd96181de67a3247a1a4e4fa280bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da44580b1bf7f12df0b8128dc56a55dc') in 0.007276 seconds
+  Import took 0.012127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.989377 seconds.
+  path: Assets/Scenes/Casa.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Casa.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4c8171141d664897283b92cab915b4') in 0.001818 seconds
+  Import took 0.006561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.848626 seconds.
+  path: Assets/Scenes/Nivel 1.unity
+  artifactKey: Guid(b790b17623ff085468c94e66765d351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 1.unity using Guid(b790b17623ff085468c94e66765d351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cebb69ba56da3ed13401fbb4794c7a6') in 0.001619 seconds
+  Import took 0.006480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.929371 seconds.
+  path: Assets/prefabs
+  artifactKey: Guid(8d23404c3abbf034ab70fa195e04ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs using Guid(8d23404c3abbf034ab70fa195e04ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf945568a208a65fbf804795734ee5bb') in 0.001878 seconds
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.240147 seconds.
+  path: Assets/sprites_001 (3).png
+  artifactKey: Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (3).png using Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b24d26794b3bbd2cf34ba496fb0098') in 0.029542 seconds
+  Import took 0.034754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.794896 seconds.
+  path: Assets/sprites_001 (3).png
+  artifactKey: Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (3).png using Guid(765845483368cdf419dba366524fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336df0360074ec19f3d54b1a001280e1') in 0.032120 seconds
+  Import took 0.037238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.149533 seconds.
+  path: Assets/sprites_001 (2).png
+  artifactKey: Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (2).png using Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e84bd872623c3070f0f2bdf9e746967') in 0.030171 seconds
+  Import took 0.035133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010679 seconds.
+  path: Assets/sprites_001 (2).png
+  artifactKey: Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites_001 (2).png using Guid(431b6c8dfe2e9ca4a8734cf6903371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e84bd872623c3070f0f2bdf9e746967') in 0.043979 seconds
+  Import took 0.048801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.527669 seconds.
+  path: Assets/New Animation.anim
+  artifactKey: Guid(679a0055a913c3541843f4c0a1af7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animation.anim using Guid(679a0055a913c3541843f4c0a1af7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcba93c5473d2466e267476b959dc9d7') in 0.004451 seconds
+  Import took 0.009378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.584935 seconds.
+  path: Assets/abajo.anim
+  artifactKey: Guid(679a0055a913c3541843f4c0a1af7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/abajo.anim using Guid(679a0055a913c3541843f4c0a1af7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdd3283a6b7f9460c01315990a31e23') in 0.001781 seconds
+  Import took 0.007099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.043459 seconds.
+  path: Assets/izauierda.anim
+  artifactKey: Guid(1c8e85e5620ed3d419b11834d06ee8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/izauierda.anim using Guid(1c8e85e5620ed3d419b11834d06ee8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d425a6710f8a1e6c280512cc56e25e') in 0.001817 seconds
+  Import took 0.007034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.747263 seconds.
+  path: Assets/derecha.anim
+  artifactKey: Guid(fc731a1ab3fbcb542a7a7a2c8a2864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/derecha.anim using Guid(fc731a1ab3fbcb542a7a7a2c8a2864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fa2d4738efff72ed364fbda82a0008') in 0.002022 seconds
+  Import took 0.007324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.421445 seconds.
+  path: Assets/arriba.anim
+  artifactKey: Guid(c90680fd23bf1804c8ce039acae8fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arriba.anim using Guid(c90680fd23bf1804c8ce039acae8fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6ce0f296420d4f2385c56c3b6eaef7') in 0.001863 seconds
+  Import took 0.006710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.856682 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001331 seconds
+  Import took 0.006092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.134729 seconds.
+  path: Assets/prefab
+  artifactKey: Guid(f41527dca8c19ed498c2d89ee22e6f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab using Guid(f41527dca8c19ed498c2d89ee22e6f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965c6f6821bf5350acc9305442d75c1') in 0.001551 seconds
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.573652 seconds.
+  path: Assets/prefab/juanabajo.prefab
+  artifactKey: Guid(ff21ed58d28d0134da8a3424509c45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanabajo.prefab using Guid(ff21ed58d28d0134da8a3424509c45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanabajo) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanabajo) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e1b28836328c4f53c45ba607e5c1997d') in 0.149826 seconds
+  Import took 0.154786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.470228 seconds.
+  path: Assets/prefab/juanizquierda.prefab
+  artifactKey: Guid(2b1cc3feee5a26e49ba950b7a14e4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanizquierda.prefab using Guid(2b1cc3feee5a26e49ba950b7a14e4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanizquierda) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanizquierda) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '4f0bcd2aede0a3fa52b254a116f6a024') in 0.013036 seconds
+  Import took 0.018065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005341 seconds.
+  path: Assets/prefab/juanizquierda.prefab
+  artifactKey: Guid(2b1cc3feee5a26e49ba950b7a14e4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanizquierda.prefab using Guid(2b1cc3feee5a26e49ba950b7a14e4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanizquierda) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanizquierda) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '4f0bcd2aede0a3fa52b254a116f6a024') in 0.009993 seconds
+  Import took 0.015257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807335 seconds.
+  path: Assets/prefab/juanderecha.prefab
+  artifactKey: Guid(ab31b64cecd4163428491a0a97454bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanderecha.prefab using Guid(ab31b64cecd4163428491a0a97454bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanderecha) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanderecha) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5e12dabfa54271172dfd801191c1cf8a') in 0.012025 seconds
+  Import took 0.017603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006161 seconds.
+  path: Assets/prefab/juanderecha.prefab
+  artifactKey: Guid(ab31b64cecd4163428491a0a97454bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanderecha.prefab using Guid(ab31b64cecd4163428491a0a97454bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanderecha) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanderecha) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5e12dabfa54271172dfd801191c1cf8a') in 0.013038 seconds
+  Import took 0.017985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.747367 seconds.
+  path: Assets/prefab/juanarriba.prefab
+  artifactKey: Guid(5169748df80b3694db62e239a56b5046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanarriba.prefab using Guid(5169748df80b3694db62e239a56b5046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanarriba) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanarriba) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '261a71ac22cff9031f21571958d1e5c2') in 0.012492 seconds
+  Import took 0.017383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007661 seconds.
+  path: Assets/prefab/juanarriba.prefab
+  artifactKey: Guid(5169748df80b3694db62e239a56b5046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/juanarriba.prefab using Guid(5169748df80b3694db62e239a56b5046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (juanarriba) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (juanarriba) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '261a71ac22cff9031f21571958d1e5c2') in 0.014944 seconds
+  Import took 0.020159 seconds .
+
