@@ -6,6 +6,7 @@ TagManager:
   tags:
   - pentagrama
   - Enemigo
+  - Pala
   layers:
   - Default
   - TransparentFX

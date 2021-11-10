@@ -6,6 +6,7 @@ public class IA : MonoBehaviour
 {
     public float velocidad;
     private Transform target;
+    public bool touchingplayer;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

@@ -3,24 +3,55 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Cambio_de_escena : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public string textoposible;
+    public bool playerinZone;
+   
+   
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player"))
+        {
+            playerinZone = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Gamemanager.instancia.Hidetext();
+            playerinZone = false;
+        }
+    }
+    private void Update()
+        
+    {
+        if (playerinZone)
+        {
+            if ( Input.GetKeyDown ("6") && Gamemanager.instancia.keymoment)
+            {
+                SceneManager.LoadScene("Casaxd", LoadSceneMode.Single);
+            }
+            else if (Input.GetKeyDown("6")) 
+        {
+                Gamemanager.instancia.Showtext(textoposible);
+            }
+        }
         
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-            if (other.gameObject.tag == "Player")
-            {
-                SceneManager.LoadScene("Casa", LoadSceneMode.Single);
-            }
-    }
+
+
+
+
+
 }
