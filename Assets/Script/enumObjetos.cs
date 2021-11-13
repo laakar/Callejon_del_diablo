@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Eventointeractuable : MonoBehaviour
+public class enumObjetos : MonoBehaviour
 {
-    public string textoposible;
     public bool playerinZone;
-    public bool keymoment;
-    void Start()
+    public enum POSIBLES_CASOS
     {
-        
+        POSEE_OBJETO_CLAVE,
+        NO_POSEE_OBJETO_CLAVE
     }
 
-    // Update is called once per frame
+    public POSIBLES_CASOS casos;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -20,7 +19,6 @@ public class Eventointeractuable : MonoBehaviour
             playerinZone = true;
         }
     }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -29,16 +27,20 @@ public class Eventointeractuable : MonoBehaviour
             playerinZone = false;
         }
     }
+
     private void Update()
     {
-        if(playerinZone && Input.GetKeyDown ("2"))
+        if (playerinZone && Input.GetKeyDown("2"))
         {
-            Gamemanager.instancia.Showtext(textoposible);
-            if (GameObject.FindGameObjectWithTag("Pala"))
+            switch (casos)
             {
-                Gamemanager.instancia.PalaOk();
+                case POSIBLES_CASOS.POSEE_OBJETO_CLAVE:
+                    Gamemanager.instancia.Showtext("ta bien");
+                    break;
+                case POSIBLES_CASOS.NO_POSEE_OBJETO_CLAVE:
+                    Gamemanager.instancia.Showtext("ta mal");
+                    break;
             }
         }
-        
     }
 }
