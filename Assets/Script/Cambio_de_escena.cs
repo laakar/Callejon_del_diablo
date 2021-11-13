@@ -38,12 +38,12 @@ public class Cambio_de_escena : MonoBehaviour
     {
         if (playerinZone)
         {
-            if ( Input.GetKeyDown ("6") && Gamemanager.instancia.keymoment)
+            if ((Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")) && Gamemanager.instancia.keymoment)
             {
-                SceneManager.LoadScene("Casaxd", LoadSceneMode.Single);
+                SceneManager.LoadScene("Casa", LoadSceneMode.Single);
             }
-            else if (Input.GetKeyDown("6")) 
-        {
+            else if ((Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
+            {
                 Gamemanager.instancia.Showtext(textoposible);
             }
         }

@@ -32,13 +32,13 @@ public class Llavemomento : MonoBehaviour
     }
     private void Update()
     {
-        if (playerinZone && Input.GetKeyDown("6") && Gamemanager.instancia.palamoment)
+        if (playerinZone && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")) && Gamemanager.instancia.palamoment)
         {
             Gamemanager.instancia.Showtext(textoposible);
             Gamemanager.instancia.LlaveOk();
 
         }
-        else if (playerinZone && Input.GetKeyDown("6")) 
+        else if (playerinZone && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
             Gamemanager.instancia.Showtext(textoposible);
         }

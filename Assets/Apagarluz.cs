@@ -34,7 +34,7 @@ public class Apagarluz : MonoBehaviour
     }
     private void Update()
     {
-        if (playerinZone && Input.GetKeyDown("6"))
+        if (playerinZone && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
             Gamemanager.instancia.Showtext(textoposible);
             linterna.SetActive(true);

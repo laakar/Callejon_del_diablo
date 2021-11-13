@@ -31,7 +31,7 @@ public class Eventointeractuable : MonoBehaviour
     }
     private void Update()
     {
-        if(playerinZone && Input.GetKeyDown ("2"))
+        if(playerinZone && (Input.GetKeyDown ("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
             Gamemanager.instancia.Showtext(textoposible);
             if (GameObject.FindGameObjectWithTag("Pala"))
