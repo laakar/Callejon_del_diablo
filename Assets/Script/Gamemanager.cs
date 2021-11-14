@@ -12,9 +12,10 @@ public class Gamemanager : MonoBehaviour
     public TextMeshProUGUI texto;
     public bool keymoment;
     public bool palamoment;
-    public bool primeraFoto;
-    public bool segundaFoto;
-    public bool terceraFoto;
+    public bool primerBoton;
+    public bool segundoBoton;
+    public bool tercerBoton;
+    public bool cuartoBoton;
     private void Awake()
     {
         instancia = this;

@@ -6,13 +6,6 @@ public class FotosMomento : MonoBehaviour
 {
     public bool playerAdentro;
     public string textoFotos;
-    public enum FOTO_TYPE
-    {
-        FOTO_1,
-        FOTO_2,
-        FOTO_3
-    }
-    public FOTO_TYPE fotos;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -32,23 +25,9 @@ public class FotosMomento : MonoBehaviour
     }
     void Update()
     {
-        if (playerAdentro && Input.GetKeyDown("6"))
+        if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
-            switch (fotos)
-            {
-                case FOTO_TYPE.FOTO_1:
-                    Gamemanager.instancia.Showtext(textoFotos);
-                    Gamemanager.instancia.primeraFoto = true;
-                    break;
-                case FOTO_TYPE.FOTO_2:
-                    Gamemanager.instancia.Showtext(textoFotos);
-                    Gamemanager.instancia.segundaFoto = true;
-                    break;
-                case FOTO_TYPE.FOTO_3:;
-                    Gamemanager.instancia.Showtext(textoFotos);
-                    Gamemanager.instancia.terceraFoto = true;
-                    break;
-            }
+            Gamemanager.instancia.Showtext(textoFotos);
         }
     }
 }

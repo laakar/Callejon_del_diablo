@@ -24,15 +24,15 @@ public class FotoMomento : MonoBehaviour
     }
     void Update()
     {
-        if(playerAdentro && Input.GetKeyDown("6"))
+        if(playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
-            if(Gamemanager.instancia.primeraFoto && Gamemanager.instancia.segundaFoto && Gamemanager.instancia.terceraFoto)
+            if(Gamemanager.instancia.primerBoton && Gamemanager.instancia.segundoBoton && Gamemanager.instancia.tercerBoton && Gamemanager.instancia.cuartoBoton)
             {
-                Gamemanager.instancia.Showtext("Tienes todas las fotos");
+                Gamemanager.instancia.Showtext("orden correcto");
             }
             else
             {
-                Gamemanager.instancia.Showtext("Te faltan fotos washito");
+                Gamemanager.instancia.Showtext("hiciste mal el puzle washito");
             }
         }
     }
