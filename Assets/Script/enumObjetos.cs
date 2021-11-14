@@ -5,10 +5,16 @@ using UnityEngine;
 public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
+    
     public enum POSIBLES_CASOS
     {
-        POSEE_OBJETO_CLAVE,
-        NO_POSEE_OBJETO_CLAVE
+        LLAVE_PUERTA_UNO,
+        LLAVE_PUERTA_FINAL,
+        OBJETO_VACIO,
+        NOTA_LLAVE_FINAL,
+        PUERTA_UNO,
+        PUERTA_FINAL    
+
     }
 
     public POSIBLES_CASOS casos;
@@ -34,11 +40,48 @@ public class enumObjetos : MonoBehaviour
         {
             switch (casos)
             {
-                case POSIBLES_CASOS.POSEE_OBJETO_CLAVE:
-                    Gamemanager.instancia.Showtext("ta bien");
+                case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
+                    Gamemanager.instancia.Showtext("Encontre una llave, puede que me sea util más adelante");
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
                     break;
-                case POSIBLES_CASOS.NO_POSEE_OBJETO_CLAVE:
-                    Gamemanager.instancia.Showtext("ta mal");
+
+                case POSIBLES_CASOS.OBJETO_VACIO:
+                    Gamemanager.instancia.Showtext("Aqui no hay nada, seguire buscando");
+                    break;
+
+                case POSIBLES_CASOS.PUERTA_UNO:
+                    if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
+                    {
+                        Gamemanager.instancia.Showtext("Funciono, logre abrir la puerta. Ahora, ¿Porqué habran cerrado esta puerta con llave?");
+                    }
+                    else
+                    {
+                        Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
+                    }
+                    break;
+
+                case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
+                    Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
+                    break;
+
+                case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
+                    Gamemanager.instancia.Showtext("Creo que con esta llave deberia poder escapar");
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal = true;
+                    break;
+
+                case POSIBLES_CASOS.PUERTA_FINAL:
+                    if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal == true)
+                    {
+                        //abrir puerta xd
+                    }
+                    else
+                    {
+                        Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
+                    }
+                    if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
+                    {
+                        Gamemanager.instancia.Showtext("Esta no es la llave correcta, debo seguir investigando");
+                    }
                     break;
             }
         }

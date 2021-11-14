@@ -5,6 +5,8 @@ using UnityEngine;
 public class xd : MonoBehaviour
 {
     public float velocidad = 5f;
+    public bool llavePuertaUno;
+    public bool llavePuertaFinal;
     Rigidbody2D rb2d;
     Vector2 mov;
     void Start()
