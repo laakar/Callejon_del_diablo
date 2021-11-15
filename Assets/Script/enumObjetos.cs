@@ -5,6 +5,7 @@ using UnityEngine;
 public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
+    public GameObject puertaUno, puertaFinal;
     
     public enum POSIBLES_CASOS
     {
@@ -52,7 +53,9 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.PUERTA_UNO:
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
                     {
-                        Gamemanager.instancia.Showtext("Funciono, logre abrir la puerta. Ahora, ¿Porqué habran cerrado esta puerta con llave?");
+                        puertaUno.SetActive(false);
+                        Destroy(gameObject);
+                        GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = false;
                     }
                     else
                     {
@@ -72,7 +75,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.PUERTA_FINAL:
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal == true)
                     {
-                        //abrir puerta xd
+                        puertaFinal.SetActive(false);
                     }
                     else
                     {
