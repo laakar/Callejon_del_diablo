@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: 6382561803464781301
     second: sprites_001 (2)_5
+  - first:
+      213: -7938972044867603179
+    second: sprites_001 (2)_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -184,10 +187,10 @@ TextureImporter:
       name: sprites_001 (2)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 75
         y: 500
-        width: 438
-        height: 499
+        width: 158
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +208,10 @@ TextureImporter:
       name: sprites_001 (2)_1
       rect:
         serializedVersion: 2
-        x: 438
+        x: 430
         y: 500
-        width: 438
-        height: 499
+        width: 190
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +229,10 @@ TextureImporter:
       name: sprites_001 (2)_2
       rect:
         serializedVersion: 2
-        x: 876
+        x: 885
         y: 500
-        width: 438
-        height: 499
+        width: 138
+        height: 473
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +250,10 @@ TextureImporter:
       name: sprites_001 (2)_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 438
-        height: 499
+        x: 86
+        y: 0
+        width: 174
+        height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +271,10 @@ TextureImporter:
       name: sprites_001 (2)_4
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1
-        width: 438
-        height: 499
+        x: 468
+        y: 0
+        width: 148
+        height: 475
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +292,10 @@ TextureImporter:
       name: sprites_001 (2)_5
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1
-        width: 438
-        height: 499
+        x: 893
+        y: 0
+        width: 174
+        height: 476
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,6 +305,27 @@ TextureImporter:
       bones: []
       spriteID: 5fdae7cd42a639850800000000000000
       internalID: 6382561803464781301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_001 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 212
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f8e7dcfa13d190800000000000000
+      internalID: -7938972044867603179
       vertices: []
       indices: 
       edges: []
