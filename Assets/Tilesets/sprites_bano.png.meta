@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: 3c29e1669fb0c8d47adb86a74eb0a10c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8959049155965371925
+    second: sprites_bano_0
+  - first:
+      213: -4709407989901400659
+    second: sprites_bano_1
+  - first:
+      213: -8649523392308247415
+    second: sprites_bano_2
+  - first:
+      213: -1363424872033509666
+    second: sprites_bano_3
+  - first:
+      213: -8091109809850711963
+    second: sprites_bano_4
+  - first:
+      213: -493904050071608828
+    second: sprites_bano_5
+  - first:
+      213: 5146181448534869734
+    second: sprites_bano_6
+  - first:
+      213: 5113876159801179970
+    second: sprites_bano_7
+  - first:
+      213: 985039080113134889
+    second: sprites_bano_8
+  - first:
+      213: 1443740503165529121
+    second: sprites_bano_9
+  - first:
+      213: -7163828874867619026
+    second: sprites_bano_10
+  - first:
+      213: 8044454836575835804
+    second: sprites_bano_11
+  - first:
+      213: 396636115668185958
+    second: sprites_bano_12
+  - first:
+      213: -6115303215642848002
+    second: sprites_bano_13
+  - first:
+      213: -2630845132961771749
+    second: sprites_bano_14
+  - first:
+      213: -2454946823706399526
+    second: sprites_bano_15
+  - first:
+      213: 3340394994844848443
+    second: sprites_bano_16
+  - first:
+      213: 7392447170953492628
+    second: sprites_bano_17
+  - first:
+      213: -3342519742205900747
+    second: sprites_bano_18
+  - first:
+      213: -9213206577227739570
+    second: sprites_bano_19
+  - first:
+      213: -1817427138937634753
+    second: sprites_bano_20
+  - first:
+      213: 1764953935798346847
+    second: sprites_bano_21
+  - first:
+      213: 2315757206435675839
+    second: sprites_bano_22
+  - first:
+      213: 6244635456130522073
+    second: sprites_bano_23
+  - first:
+      213: 4981016943321295062
+    second: sprites_bano_24
+  - first:
+      213: 2149025820965995352
+    second: sprites_bano_25
+  - first:
+      213: 8678534895870388121
+    second: sprites_bano_26
+  - first:
+      213: -8698813153817626889
+    second: sprites_bano_27
+  - first:
+      213: -3656708729307655193
+    second: sprites_bano_28
+  - first:
+      213: -8267117181272212730
+    second: sprites_bano_29
+  - first:
+      213: 8190581435019602842
+    second: sprites_bano_30
+  - first:
+      213: 7244246626929802807
+    second: sprites_bano_31
+  - first:
+      213: -9089528832314127967
+    second: sprites_bano_32
+  - first:
+      213: 8502503813540032453
+    second: sprites_bano_33
+  - first:
+      213: -1314105341053645281
+    second: sprites_bano_34
+  - first:
+      213: -3268088708948329795
+    second: sprites_bano_35
+  - first:
+      213: -4211998552459103016
+    second: sprites_bano_36
+  - first:
+      213: -5039073064718970933
+    second: sprites_bano_37
+  - first:
+      213: -5392028616092281710
+    second: sprites_bano_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites_bano_0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1669
+        width: 302
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51644928dbfe45c70800000000000000
+      internalID: 8959049155965371925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1922
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da56a8b7262d4aeb0800000000000000
+      internalID: -4709407989901400659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_2
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1680
+        width: 254
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98409054d48b6f780800000000000000
+      internalID: -8649523392308247415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1792
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede92887d44241de0800000000000000
+      internalID: -1363424872033509666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_4
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1435
+        width: 183
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608b291f7a96bf80800000000000000
+      internalID: -8091109809850711963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1661
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ea5e12ec4529f0800000000000000
+      internalID: -493904050071608828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_6
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1646
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e640a503c8ea6740800000000000000
+      internalID: 5146181448534869734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1659
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fb94ad54328f640800000000000000
+      internalID: 5113876159801179970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_8
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1640
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d550c03df8bad00800000000000000
+      internalID: 985039080113134889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_9
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1615
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c660f9652390410800000000000000
+      internalID: 1443740503165529121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1600
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b44d90897f49c90800000000000000
+      internalID: -7163828874867619026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1438
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9696c17d05a3af60800000000000000
+      internalID: 8044454836575835804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1431
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6633e7b1272218500800000000000000
+      internalID: 396636115668185958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1291
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4ddc92024122ba0800000000000000
+      internalID: -6115303215642848002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1336
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f8fb65a4c5d7bd0800000000000000
+      internalID: -2630845132961771749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1058
+        width: 356
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adca186eed64eedd0800000000000000
+      internalID: -2454946823706399526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_16
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1323
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b315835bc877b5e20800000000000000
+      internalID: 3340394994844848443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_17
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1175
+        width: 257
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498368df88f379660800000000000000
+      internalID: 7392447170953492628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1309
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538461ff00cfc91d0800000000000000
+      internalID: -3342519742205900747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_19
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1313
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4c028e6d142080800000000000000
+      internalID: -9213206577227739570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1261
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c77275a337c6e0800000000000000
+      internalID: -1817427138937634753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f542034e0406e7810800000000000000
+      internalID: 1764953935798346847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_22
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1265
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe36abe8e8332020800000000000000
+      internalID: 2315757206435675839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_23
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1184
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db1872acd669a650800000000000000
+      internalID: 6244635456130522073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_24
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1193
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d82ed6f480202540800000000000000
+      internalID: 4981016943321295062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_25
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1248
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85302df199fd2dd10800000000000000
+      internalID: 2149025820965995352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1204
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997af27c189507870800000000000000
+      internalID: 8678534895870388121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1191
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6743f568b974780800000000000000
+      internalID: -8698813153817626889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1183
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e31c86e8c2c04dc0800000000000000
+      internalID: -3656708729307655193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1173
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bbdb589bc454d80800000000000000
+      internalID: -8267117181272212730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_30
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1132
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba04a6b6acaa170800000000000000
+      internalID: 8190581435019602842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_31
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1151
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ef87fecebb88460800000000000000
+      internalID: 7244246626929802807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_32
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1042
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ce367fa18bd180800000000000000
+      internalID: -9089528832314127967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1050
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf25739b26fef570800000000000000
+      internalID: 8502503813540032453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_34
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1002
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ecd0d972c53cde0800000000000000
+      internalID: -1314105341053645281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_35
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1010
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7ba062aa65a2d0800000000000000
+      internalID: -3268088708948329795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 292
+        height: 669
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d43736f1a9fb85c0800000000000000
+      internalID: -4211998552459103016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_37
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 475
+        width: 124
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfcf2ceebd911ab0800000000000000
+      internalID: -5039073064718970933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_bano_38
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 132
+        width: 262
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941417ba8aab25b0800000000000000
+      internalID: -5392028616092281710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

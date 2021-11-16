@@ -65,6 +65,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
                     Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
+                    
                     break;
 
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
