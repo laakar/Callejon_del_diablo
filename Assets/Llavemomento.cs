@@ -6,7 +6,9 @@ public class Llavemomento : MonoBehaviour
 {
     // Start is called before the first frame update
     public string textoposible;
+    public string textoposible2;
     public bool playerinZone;
+    
     
     void Start()
     {
@@ -36,11 +38,12 @@ public class Llavemomento : MonoBehaviour
         {
             Gamemanager.instancia.Showtext(textoposible);
             Gamemanager.instancia.LlaveOk();
+           
 
         }
         else if (playerinZone && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
-            Gamemanager.instancia.Showtext(textoposible);
+            Gamemanager.instancia.Showtext(textoposible2);
         }
     }
 }

@@ -7,9 +7,12 @@ public class Eventointeractuable : MonoBehaviour
     public string textoposible;
     public bool playerinZone;
     public bool keymoment;
+    public GameObject  pala;
+    public SpriteRenderer palan;
+    public Collider2D evento;
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -37,6 +40,9 @@ public class Eventointeractuable : MonoBehaviour
             if (GameObject.FindGameObjectWithTag("Pala"))
             {
                 Gamemanager.instancia.PalaOk();
+                palan.enabled = !palan.enabled;
+                pala.SetActive(false);
+                evento.enabled = !evento.enabled;
             }
         }
         

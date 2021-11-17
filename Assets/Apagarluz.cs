@@ -40,10 +40,7 @@ public class Apagarluz : MonoBehaviour
             linterna.SetActive(true);
             linternasuelo.SetActive(false);
             Destroy(newgameObject);
-            if (GameObject.FindGameObjectWithTag("Pala"))
-            {
-                Gamemanager.instancia.PalaOk();
-            }
+           
         }
 
     }

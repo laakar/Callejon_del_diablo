@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Cambio_de_escena : MonoBehaviour
 {
 
-    public string textoposible;
+    public string textoposibled;
     public bool playerinZone;
    
    
@@ -44,7 +44,7 @@ public class Cambio_de_escena : MonoBehaviour
             }
             else if ((Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
             {
-                Gamemanager.instancia.Showtext(textoposible);
+                Gamemanager.instancia.Showtext(textoposibled);
             }
         }
         

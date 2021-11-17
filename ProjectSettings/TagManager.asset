@@ -8,6 +8,7 @@ TagManager:
   - Enemigo
   - Pala
   - musica
+  - notpala
   layers:
   - Default
   - TransparentFX
