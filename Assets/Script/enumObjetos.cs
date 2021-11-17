@@ -37,7 +37,7 @@ public class enumObjetos : MonoBehaviour
 
     private void Update()
     {
-        if (playerinZone && Input.GetKeyDown("2"))
+        if (playerinZone && (Input.GetKeyDown("Joystick Button 2") || Input.GetKeyDown("Joystick Button 0")))
         {
             switch (casos)
             {

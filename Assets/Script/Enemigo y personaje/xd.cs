@@ -9,16 +9,20 @@ public class xd : MonoBehaviour
     public bool llavePuertaFinal;
     Rigidbody2D rb2d;
     Vector2 mov;
+    public Animator anim;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
     }
     void Update()
     {
-        mov = new Vector2(
-            Input.GetAxisRaw("Horizontal"),
-            Input.GetAxisRaw("Vertical")
-            );
+
+        mov.x = Input.GetAxisRaw("Horizontal");
+        mov.y = Input.GetAxisRaw("Vertical");
+
+        anim.SetFloat("Horizontal", mov.x);
+        anim.SetFloat("Vertical", mov.y);
+        anim.SetFloat("Speed", mov.sqrMagnitude);
     }
 
     private void FixedUpdate()
