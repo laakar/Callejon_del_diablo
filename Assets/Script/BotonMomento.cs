@@ -32,12 +32,14 @@ public class BotonMomento : MonoBehaviour
         {
             Gamemanager.instancia.Hidetext();
             playerAdentro = false;
+            IA.instancia.velocidad = 2;
         }
     }
     void Update()
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             switch (botones)
             {
                 case BOTON_TYPE.BOTON_1:

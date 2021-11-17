@@ -20,12 +20,14 @@ public class FotoMomento : MonoBehaviour
         {
             Gamemanager.instancia.Hidetext();
             playerAdentro = false;
+            IA.instancia.velocidad = 2;
         }    
     }
     void Update()
     {
         if(playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             if(Gamemanager.instancia.primerBoton && Gamemanager.instancia.segundoBoton && Gamemanager.instancia.tercerBoton && Gamemanager.instancia.cuartoBoton)
             {
                 Gamemanager.instancia.Showtext("orden correcto");
