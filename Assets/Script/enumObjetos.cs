@@ -5,16 +5,18 @@ using UnityEngine;
 public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
-    public GameObject puertaUno, puertaFinal;
+    public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno;
     
     public enum POSIBLES_CASOS
     {
         LLAVE_PUERTA_UNO,
         LLAVE_PUERTA_FINAL,
+        BOTIQUIN,
         OBJETO_VACIO,
         NOTA_LLAVE_FINAL,
         PUERTA_UNO,
-        PUERTA_FINAL    
+        PUERTA_FINAL, 
+        SILLA_CAMA
 
     }
 
@@ -44,7 +46,9 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
                     Gamemanager.instancia.Showtext("Encontre una llave, puede que me sea util más adelante");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
+                    llaveUno.SetActive(false);
                     break;
+                    
 
                 case POSIBLES_CASOS.OBJETO_VACIO:
                     Gamemanager.instancia.Showtext("Aqui no hay nada, seguire buscando");
@@ -65,7 +69,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
                     Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
-                    
+                    llaveFinal.SetActive(true);
                     break;
 
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
@@ -87,6 +91,12 @@ public class enumObjetos : MonoBehaviour
                         Gamemanager.instancia.Showtext("Esta no es la llave correcta, debo seguir investigando");
                     }
                     break;
+
+                case POSIBLES_CASOS.SILLA_CAMA:
+
+                    Gamemanager.instancia.Showtext("Este no es un buen momento para descansar");
+                    break;
+
             }
         }
     }

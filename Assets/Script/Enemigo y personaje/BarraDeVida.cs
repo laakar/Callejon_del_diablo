@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BarraDeVida : MonoBehaviour
 {
-    private int vidaMaxima = 100;
+    public int vidaMaxima = 100;
     public Slider sliderVida;
     private int damage = -25;
 

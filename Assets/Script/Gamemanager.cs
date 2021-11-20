@@ -40,4 +40,5 @@ public class Gamemanager : MonoBehaviour
     {
         palamoment = true;
     }
+
 }
