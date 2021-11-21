@@ -39,7 +39,7 @@ public class enumObjetos : MonoBehaviour
 
     private void Update()
     {
-        if (playerinZone && (Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("joystick button 0")))
+        if (playerinZone && (Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("space")))
         {
             switch (casos)
             {
@@ -97,6 +97,10 @@ public class enumObjetos : MonoBehaviour
                     Gamemanager.instancia.Showtext("Este no es un buen momento para descansar");
                     break;
 
+                case POSIBLES_CASOS.BOTIQUIN:
+                    Gamemanager.instancia.botiquinMomento = true;
+                    Destroy(gameObject);
+                    break;
             }
         }
     }

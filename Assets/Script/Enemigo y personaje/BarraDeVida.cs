@@ -14,7 +14,23 @@ public class BarraDeVida : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemigo"))
         {
             vidaMaxima = vidaMaxima + damage;
-            sliderVida.value = vidaMaxima;
+        }
+    }
+    IEnumerator Example()
+    {
+        Gamemanager.instancia.Showtext("Usas el botiquin, recuperas vida.");
+        yield return new WaitForSecondsRealtime(5);
+        Gamemanager.instancia.Hidetext();
+    }
+
+    public void Update()
+    {
+        sliderVida.value = vidaMaxima;
+        if (Gamemanager.instancia.botiquinMomento && vidaMaxima <= 75)
+        {
+            vidaMaxima = vidaMaxima + 25;
+            Gamemanager.instancia.botiquinMomento = false;
+            StartCoroutine(Example());
         }
     }
 }
