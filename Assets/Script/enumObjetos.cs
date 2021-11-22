@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
-    public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno;
+    public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno, pentagrama, objetoFinal;
     
     public enum POSIBLES_CASOS
     {
@@ -15,9 +16,31 @@ public class enumObjetos : MonoBehaviour
         OBJETO_VACIO,
         NOTA_LLAVE_FINAL,
         PUERTA_UNO,
-        PUERTA_FINAL, 
+        PUERTA_FINAL,
+        OBJETO_SGT_NIVEL,
+        SIGUIENTE_NIVEL,
         SILLA_CAMA
 
+    }
+
+    private void Start()
+    {
+
+    }
+    IEnumerator TiempoFunciones()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        llaveUno.SetActive(false);
+    }
+    IEnumerator TiempoFunciones2()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        llaveFinal.SetActive(false);
+    }
+    IEnumerator TiempoFunciones3()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        objetoFinal.SetActive(false);
     }
 
     public POSIBLES_CASOS casos;
@@ -44,9 +67,10 @@ public class enumObjetos : MonoBehaviour
             switch (casos)
             {
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
-                    Gamemanager.instancia.Showtext("Encontre una llave, puede que me sea util más adelante");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
-                    llaveUno.SetActive(false);
+                    Gamemanager.instancia.Showtext("Una llave, quizas me sea util...");
+                    StartCoroutine(TiempoFunciones());
+                    
                     break;
                     
 
@@ -75,6 +99,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
                     Gamemanager.instancia.Showtext("Creo que con esta llave deberia poder escapar");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal = true;
+                    StartCoroutine(TiempoFunciones2());
                     break;
 
                 case POSIBLES_CASOS.PUERTA_FINAL:
@@ -98,9 +123,28 @@ public class enumObjetos : MonoBehaviour
                     break;
 
                 case POSIBLES_CASOS.BOTIQUIN:
+
                     Gamemanager.instancia.botiquinMomento = true;
                     Destroy(gameObject);
                     break;
+
+                case POSIBLES_CASOS.OBJETO_SGT_NIVEL:
+
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().objtSgtNivel = true;
+                    Gamemanager.instancia.Showtext("Creo que escuche algo en la planta baja...., sera mejor que vaya a ver");
+                    StartCoroutine(TiempoFunciones3());
+                    pentagrama.SetActive(true);
+                    break;
+
+                case POSIBLES_CASOS.SIGUIENTE_NIVEL:
+
+                    if(GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().objtSgtNivel == true)
+                    {
+                        SceneManager.LoadScene("Callejonxd", LoadSceneMode.Single);
+                    }
+
+                    break;
+                    
             }
         }
     }
