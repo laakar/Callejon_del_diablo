@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
-    public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno, pentagrama, objetoFinal;
+    public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno, pentagrama, objetoFinal, timer;
     
     public enum POSIBLES_CASOS
     {
@@ -19,7 +19,8 @@ public class enumObjetos : MonoBehaviour
         PUERTA_FINAL,
         OBJETO_SGT_NIVEL,
         SIGUIENTE_NIVEL,
-        SILLA_CAMA
+        SILLA_CAMA,
+        TARJETA_EURIPIDES
 
     }
 
@@ -145,6 +146,12 @@ public class enumObjetos : MonoBehaviour
 
                     break;
                     
+                case POSIBLES_CASOS.TARJETA_EURIPIDES:
+                    Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, mejor se la entrego antes de que sea demasiado tarde.");
+                    timer.SetActive(false);
+                    DagobertoMomento.instancia.tarjetaMomento = true;
+                    Destroy(gameObject);
+                    break;
             }
         }
     }

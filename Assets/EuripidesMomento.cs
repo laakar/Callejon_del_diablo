@@ -40,6 +40,7 @@ public class EuripidesMomento : MonoBehaviour
             {
                 Gamemanager.instancia.Showtext("MI NOMBRE... DIME MI NOMBRE O TE MATARE... ESTA EN ALGUN LUGAR DE ESTA HABITACIÓN");
                 primerEncuentro = false;
+                fotoPadre.SetActive(true);
             }
             else if (primerEncuentro && !fotoMomento)
             {
@@ -47,8 +48,9 @@ public class EuripidesMomento : MonoBehaviour
             }
             else if (primerEncuentro && fotoMomento)
             {
-                Gamemanager.instancia.Showtext("EURIPIDES... SI, ESE ES MI NOMBRE. MUCHAS GRACIAS...");
-                Destroy(fotoPadre);
+                Gamemanager.instancia.Showtext("ANASTACIO... SI, ESE ES MI NOMBRE. MUCHAS GRACIAS...");
+                fotoPadre.SetActive(false);
+                Gamemanager.instancia.anastacioMomento = true;
                 Destroy(gameObject);
             }
 

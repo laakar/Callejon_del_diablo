@@ -17,6 +17,7 @@ public class Gamemanager : MonoBehaviour
     public bool tercerBoton;
     public bool cuartoBoton;
     public bool botiquinMomento;
+    public bool anastacioMomento, euripidesMomento, dagobertoMomento, marioMomento;
     private void Awake()
     {
         instancia = this;

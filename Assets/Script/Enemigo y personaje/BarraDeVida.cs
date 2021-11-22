@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class BarraDeVida : MonoBehaviour
 {
+    public static BarraDeVida vida;
     public int vidaMaxima = 100;
     public Slider sliderVida;
     private int damage = -25;
 
+    public void Awake()
+    {
+        vida = this;
+    }
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemigo"))
