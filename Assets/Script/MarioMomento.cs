@@ -9,6 +9,10 @@ public class MarioMomento : MonoBehaviour
     public static MarioMomento instancia;
     public GameObject tarjeta;
 
+    public void Awake()
+    {
+        instancia = this;
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -39,7 +43,7 @@ public class MarioMomento : MonoBehaviour
             if (!primerEncuentro && !tarjetaMomento)
             {
                 Gamemanager.instancia.Showtext(primerTexto);
-                primerEncuentro = false;
+                primerEncuentro = true;
                 tarjeta.SetActive(true);
             }
             else if (primerEncuentro && !tarjetaMomento)

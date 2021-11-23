@@ -45,7 +45,7 @@ public class enumObjetos : MonoBehaviour
 
     IEnumerator DagobertoMomentoXd()
     {
-        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Dagoberto.");
+        Gamemanager.instancia.Showtext("Esta es la chaqueta que me pidio el fantasma... Su nombre es Dagoberto.");
         AnastacioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
         AnastacioMomento.instancia.tarjeta.SetActive(false);
@@ -53,7 +53,7 @@ public class enumObjetos : MonoBehaviour
 
     IEnumerator EuripidesFoto()
     {
-        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, mejor se la entrego antes de que sea demasiado tarde.");
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, su nombre es Euripides. Mejor se la entrego antes de que sea demasiado tarde.");
         timer.SetActive(false);
         DagobertoMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
@@ -64,7 +64,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Mario.");
         MarioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
-        AnastacioMomento.instancia.tarjeta.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public POSIBLES_CASOS casos;

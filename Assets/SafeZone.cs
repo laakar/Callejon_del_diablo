@@ -6,7 +6,7 @@ public class SafeZone : MonoBehaviour
 {
     public bool playerAdentro;
     public bool playerSafe;
-    public GameObject elTripas;
+    public GameObject elTripas, luzSegura, luzPlayer;
     public float safeX;
     public float safeY;
     public float unsafeX;
@@ -48,6 +48,8 @@ public class SafeZone : MonoBehaviour
                 elTripas.SetActive(false);
                 playerTrans.SetPositionAndRotation(new Vector3(safeX, safeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = true;
+                luzSegura.SetActive(true);
+                luzPlayer.SetActive(false);
                 if (Gamemanager.instancia.mateoSeguidor)
                 {
                     mateoTrans.SetPositionAndRotation(new Vector3(mateoAdentroX, mateoAdentroY), new Quaternion(0, 0, 0, 0));
@@ -61,6 +63,8 @@ public class SafeZone : MonoBehaviour
                 elTripas.SetActive(true);
                 playerTrans.SetPositionAndRotation(new Vector3(unsafeX, unsafeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = false;
+                luzSegura.SetActive(false);
+                luzPlayer.SetActive(true);
                 if (Gamemanager.instancia.mateoSeguidor)
                 {
                     mateoTrans.SetPositionAndRotation(new Vector3(mateoAfueraX, mateoAfueraY), new Quaternion(0, 0, 0, 0));

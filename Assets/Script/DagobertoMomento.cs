@@ -8,7 +8,7 @@ public class DagobertoMomento : MonoBehaviour
     public static DagobertoMomento instancia;
     public bool primerEncuentro;
     public bool tarjetaMomento;
-    public GameObject tarjeta;
+    public GameObject tarjeta, timer;
     public bool playerAdentro;
     public string textoPrimerEncuentro;
     public string textoFallaste;
@@ -38,6 +38,7 @@ public class DagobertoMomento : MonoBehaviour
 
     IEnumerator AdiosMomento()
     {
+        timer.SetActive(false);
         Gamemanager.instancia.Showtext(textoGanaste);
         Gamemanager.instancia.euripidesMomento = true;
         yield return new WaitForSecondsRealtime(2f);

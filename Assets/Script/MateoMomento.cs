@@ -19,6 +19,7 @@ public class MateoMomento : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Gamemanager.instancia.Hidetext();
             playerAdentro = false;
             if(siguemeMateo)
             {

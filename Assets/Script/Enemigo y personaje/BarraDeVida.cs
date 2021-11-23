@@ -24,7 +24,7 @@ public class BarraDeVida : MonoBehaviour
     IEnumerator Example()
     {
         Gamemanager.instancia.Showtext("Usas el botiquin, recuperas vida.");
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(2f);
         Gamemanager.instancia.Hidetext();
     }
 
