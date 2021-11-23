@@ -20,14 +20,13 @@ public class enumObjetos : MonoBehaviour
         OBJETO_SGT_NIVEL,
         SIGUIENTE_NIVEL,
         SILLA_CAMA,
-        TARJETA_EURIPIDES
+        TARJETA_EURIPIDES,
+        TARJETA_DAGOBERTO,
+        TARJETA_MARIO
+
 
     }
 
-    private void Start()
-    {
-
-    }
     IEnumerator TiempoFunciones()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -42,6 +41,21 @@ public class enumObjetos : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(2f);
         objetoFinal.SetActive(false);
+    }
+
+    IEnumerator DagobertoMomentoXd()
+    {
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Dagoberto.");
+        AnastacioMomento.instancia.tarjetaMomento = true;
+        yield return new WaitForSecondsRealtime(2f);
+        AnastacioMomento.instancia.tarjeta.SetActive(false);
+    }
+    IEnumerator MarioAdios()
+    {
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Mario.");
+        MarioMomento.instancia.tarjetaMomento = true;
+        yield return new WaitForSecondsRealtime(2f);
+        AnastacioMomento.instancia.tarjeta.SetActive(false);
     }
 
     public POSIBLES_CASOS casos;
@@ -94,6 +108,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
                     Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().leerNota = true;
                     llaveFinal.SetActive(true);
                     break;
 
@@ -151,6 +166,14 @@ public class enumObjetos : MonoBehaviour
                     timer.SetActive(false);
                     DagobertoMomento.instancia.tarjetaMomento = true;
                     Destroy(gameObject);
+                    break;
+
+                case POSIBLES_CASOS.TARJETA_DAGOBERTO:
+                    StartCoroutine(DagobertoMomentoXd());
+                    break;
+
+                case POSIBLES_CASOS.TARJETA_MARIO:
+                    StartCoroutine(MarioAdios());
                     break;
             }
         }

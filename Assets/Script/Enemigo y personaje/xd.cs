@@ -8,6 +8,7 @@ public class xd : MonoBehaviour
     public bool llavePuertaUno;
     public bool llavePuertaFinal;
     public bool objtSgtNivel;
+    public bool leerNota;
     Rigidbody2D rb2d;
     Vector2 mov;
     public Animator anim;

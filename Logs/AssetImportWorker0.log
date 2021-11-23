@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+OS: 'Windows 10 Pro; OS build 22000.318; Version 2009; 64bit' Language: 'es' Physical Memory: 16311 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,68 +11,156 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
+C:/Users/laark/Desktop/Unity/xd12
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64934
-Successfully changed project path to: C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
-C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo
+56453
+Successfully changed project path to: C:/Users/laark/Desktop/Unity/xd12
+C:/Users/laark/Desktop/Unity/xd12
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/USUARIO/Documents/GitHub/Callejon_del_diablo/Assets
+[Subsystems] Discovering subsystems at path C:/Users/laark/Desktop/Unity/xd12/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
     Vendor:   
-    VRAM:     6103 MB
-    Driver:   27.20.22025.1006
+    VRAM:     3962 MB
+    Driver:   30.0.14.9613
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002009 seconds.
+Registered in 0.001906 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  1.484 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003489 seconds.
+Registered in 0.105823 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
+- Completed reload, in  1.588 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.5 MB.
-System memory in use after: 144.7 MB.
+System memory in use before: 144.2 MB.
+System memory in use after: 144.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3734.
-Total: 2.290800 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.135300 ms MarkObjects: 1.844200 ms  DeleteObjects: 0.054500 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3729.
+Total: 3.463300 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.083100 ms MarkObjects: 2.872700 ms  DeleteObjects: 0.152000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Metroxd.unity
-  artifactKey: Guid(ec4324a38a913024a905a0ef985d4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Metroxd.unity using Guid(ec4324a38a913024a905a0ef985d4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f69a3e91445b7d3b38894d01ff502') in 0.015380 seconds
-  Import took 0.019078 seconds .
+  path: Assets/adornoscasa/ventanba.png
+  artifactKey: Guid(f5a8f112985fd6d479f85916c9375bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/ventanba.png using Guid(f5a8f112985fd6d479f85916c9375bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9456326247689e11a5e02c38dd377662') in 0.190338 seconds
+  Import took 0.196601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/adornoscasa/ll (2).png
+  artifactKey: Guid(a616b7e321f507a44b15685ba2b6015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/ll (2).png using Guid(a616b7e321f507a44b15685ba2b6015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9902054fad1ae575ceac98e542e4447a') in 0.046389 seconds
+  Import took 0.052634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/adornoscasa/sprites_bano (2).png
+  artifactKey: Guid(9f955c2801a16a34fb518d401d0aa122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/sprites_bano (2).png using Guid(9f955c2801a16a34fb518d401d0aa122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f2ca24c0db005b469b94c596675968') in 0.030352 seconds
+  Import took 0.036882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/adornoscasa/muebles (7).png
+  artifactKey: Guid(8bbd7f5b00b71e442ad74848d043690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/muebles (7).png using Guid(8bbd7f5b00b71e442ad74848d043690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c001ca7023ed2fa63976da62106445ac') in 0.039972 seconds
+  Import took 0.048152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Script/enumObjetos.cs
+  artifactKey: Guid(a7623e473638d1147a360c022b2940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/enumObjetos.cs using Guid(a7623e473638d1147a360c022b2940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af49c38eaabe1aa1a56c4ec5f8edaf13') in 0.026050 seconds
+  Import took 0.031945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/adornoscasa/muebles (8).png
+  artifactKey: Guid(2c59b553f406a9045afdc5db2c45e21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/muebles (8).png using Guid(2c59b553f406a9045afdc5db2c45e21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353aea0accbb3c74c324844e7e07b44e') in 0.037700 seconds
+  Import took 0.044709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/adornoscasa/muebles (6).png
+  artifactKey: Guid(68f993dc4f8b36d49850069adf57aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/muebles (6).png using Guid(68f993dc4f8b36d49850069adf57aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a08923319e36ad83579057b2f695a') in 0.030063 seconds
+  Import took 0.037879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Materials/sprites_Tripas.mat
+  artifactKey: Guid(a47f3eac18b03fe47996d2578b7c45b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sprites_Tripas.mat using Guid(a47f3eac18b03fe47996d2578b7c45b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4744a8bef22d4a2a03ead4565ed8e576') in 0.309969 seconds
+  Import took 0.317161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/adornoscasa/muebles (4).png
+  artifactKey: Guid(ce29e96e12bad0540b9e3e5f6fce5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/muebles (4).png using Guid(ce29e96e12bad0540b9e3e5f6fce5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa619d036f9f9c95528506b063a071e') in 0.024612 seconds
+  Import took 0.029877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/adornoscasa/muebles (5).png
+  artifactKey: Guid(68f420234c63dfb41a09e3e8dec72551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/muebles (5).png using Guid(68f420234c63dfb41a09e3e8dec72551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27efa4f34e4f76ec722de8c3f273809e') in 0.026022 seconds
+  Import took 0.031212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/adornoscasa/huesos.png
+  artifactKey: Guid(eac1bc2fcb0b31e4a8577d849db047e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adornoscasa/huesos.png using Guid(eac1bc2fcb0b31e4a8577d849db047e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd777b17e080d45a376880204a6ffb6b4') in 0.024577 seconds
+  Import took 0.029764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 415.931861 seconds.
+  path: Assets/Script/enumObjetos.cs
+  artifactKey: Guid(a7623e473638d1147a360c022b2940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/enumObjetos.cs using Guid(a7623e473638d1147a360c022b2940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd852dd704eec62f89e280e5f7886bfb9') in 0.004777 seconds
+  Import took 0.011087 seconds .
 
