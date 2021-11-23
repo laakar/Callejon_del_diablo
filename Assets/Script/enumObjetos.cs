@@ -50,6 +50,15 @@ public class enumObjetos : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         AnastacioMomento.instancia.tarjeta.SetActive(false);
     }
+
+    IEnumerator EuripidesFoto()
+    {
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, mejor se la entrego antes de que sea demasiado tarde.");
+        timer.SetActive(false);
+        DagobertoMomento.instancia.tarjetaMomento = true;
+        yield return new WaitForSecondsRealtime(2f);
+        DagobertoMomento.instancia.tarjeta.SetActive(false);
+    }
     IEnumerator MarioAdios()
     {
         Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Mario.");
@@ -162,10 +171,7 @@ public class enumObjetos : MonoBehaviour
                     break;
                     
                 case POSIBLES_CASOS.TARJETA_EURIPIDES:
-                    Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, mejor se la entrego antes de que sea demasiado tarde.");
-                    timer.SetActive(false);
-                    DagobertoMomento.instancia.tarjetaMomento = true;
-                    Destroy(gameObject);
+                    StartCoroutine(EuripidesFoto());
                     break;
 
                 case POSIBLES_CASOS.TARJETA_DAGOBERTO:

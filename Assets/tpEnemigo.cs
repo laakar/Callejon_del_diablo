@@ -6,6 +6,7 @@ public class tpEnemigo : MonoBehaviour
 {
     public Transform eltripas;
     public AudioSource audioSrc;
+    public float newX, newY;
     void Start()
     {
         
@@ -17,7 +18,8 @@ public class tpEnemigo : MonoBehaviour
         PASILLO_2,
         HABITACION_1,
         BANO_2,
-        PRINCIPIO
+        PRINCIPIO,
+        METRO
     }
     public TP_ENEMIGO tpEnem;
     IEnumerator esperar()
@@ -72,6 +74,12 @@ public class tpEnemigo : MonoBehaviour
                         audioSrc.Play();
                         StartCoroutine(esperar());
                     }
+                    break;
+
+                case TP_ENEMIGO.METRO:
+                    eltripas.position = new Vector2(newX, newY);
+                    audioSrc.Play();
+                    StartCoroutine(esperar());
                     break;
             }
         }

@@ -42,7 +42,7 @@ public class DagobertoMomento : MonoBehaviour
         Gamemanager.instancia.euripidesMomento = true;
         yield return new WaitForSecondsRealtime(2f);
         Gamemanager.instancia.Hidetext();
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     public void Update()

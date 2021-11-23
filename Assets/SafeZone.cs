@@ -13,10 +13,11 @@ public class SafeZone : MonoBehaviour
     public float unsafeY;
     public float tripasX;
     public float tripasY;
-    public Transform playerTrans;
+    public Transform playerTrans, mateoTrans;
     public Transform tripasTrans;
     public AudioSource cancionFea;
     public AudioSource cancionLinda;
+    public float mateoAdentroX, mateoAdentroY, mateoAfueraX, mateoAfueraY;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -47,6 +48,10 @@ public class SafeZone : MonoBehaviour
                 elTripas.SetActive(false);
                 playerTrans.SetPositionAndRotation(new Vector3(safeX, safeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = true;
+                if (Gamemanager.instancia.mateoSeguidor)
+                {
+                    mateoTrans.SetPositionAndRotation(new Vector3(mateoAdentroX, mateoAdentroY), new Quaternion(0, 0, 0, 0));
+                }
             }
 
             else if(playerSafe)
@@ -56,9 +61,11 @@ public class SafeZone : MonoBehaviour
                 elTripas.SetActive(true);
                 playerTrans.SetPositionAndRotation(new Vector3(unsafeX, unsafeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = false;
+                if (Gamemanager.instancia.mateoSeguidor)
+                {
+                    mateoTrans.SetPositionAndRotation(new Vector3(mateoAfueraX, mateoAfueraY), new Quaternion(0, 0, 0, 0));
+                }
             }
         }
-
-
     }
 }
