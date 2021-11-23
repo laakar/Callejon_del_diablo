@@ -16,6 +16,15 @@ public class EuripidesMomento : MonoBehaviour
         instancia = this;
     }
 
+    IEnumerator MomentoAdios()
+    {
+        Gamemanager.instancia.Showtext("ANASTACIO... SI, ESE ES MI NOMBRE. MUCHAS GRACIAS...");
+        fotoPadre.SetActive(false);
+        Gamemanager.instancia.anastacioMomento = true;
+        yield return new WaitForSecondsRealtime(2f);
+        Destroy(gameObject);
+        Gamemanager.instancia.Hidetext();
+    }    
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
@@ -28,18 +37,18 @@ public class EuripidesMomento : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            Gamemanager.instancia.Hidetext();
             playerAdentro = false;
+            Gamemanager.instancia.Hidetext();
         }
     }
     void Update()
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
-            if (!primerEncuentro)
+            if (!primerEncuentro && !fotoMomento)
             {
                 Gamemanager.instancia.Showtext("MI NOMBRE... DIME MI NOMBRE O TE MATARE... ESTA EN ALGUN LUGAR DE ESTA HABITACIÓN");
-                primerEncuentro = false;
+                primerEncuentro = true;
                 fotoPadre.SetActive(true);
             }
             else if (primerEncuentro && !fotoMomento)
@@ -48,10 +57,7 @@ public class EuripidesMomento : MonoBehaviour
             }
             else if (primerEncuentro && fotoMomento)
             {
-                Gamemanager.instancia.Showtext("ANASTACIO... SI, ESE ES MI NOMBRE. MUCHAS GRACIAS...");
-                fotoPadre.SetActive(false);
-                Gamemanager.instancia.anastacioMomento = true;
-                Destroy(gameObject);
+                StartCoroutine(MomentoAdios());
             }
 
         }

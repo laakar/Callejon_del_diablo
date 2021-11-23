@@ -36,6 +36,15 @@ public class DagobertoMomento : MonoBehaviour
         }
     }
 
+    IEnumerator AdiosMomento()
+    {
+        Gamemanager.instancia.Showtext(textoGanaste);
+        Gamemanager.instancia.euripidesMomento = true;
+        yield return new WaitForSecondsRealtime(2f);
+        Gamemanager.instancia.Hidetext();
+        Destroy(gameObject);
+    }
+
     public void Update()
     {
         if(playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
@@ -60,9 +69,7 @@ public class DagobertoMomento : MonoBehaviour
             }
             else if(tarjetaMomento)
             {
-                Gamemanager.instancia.Showtext(textoGanaste);
-                Gamemanager.instancia.euripidesMomento = true;
-                Destroy(gameObject);
+                StartCoroutine(AdiosMomento());
             }    
         }    
     }
