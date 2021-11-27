@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarraDeVida : MonoBehaviour
 {
@@ -36,6 +37,11 @@ public class BarraDeVida : MonoBehaviour
             vidaMaxima = vidaMaxima + 25;
             Gamemanager.instancia.botiquinMomento = false;
             StartCoroutine(Example());
+        }
+
+        if (vidaMaxima == 0)
+        {
+            SceneManager.LoadScene("Pantalla Gameover");
         }
     }
 }
