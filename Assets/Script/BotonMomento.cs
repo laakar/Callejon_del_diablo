@@ -9,6 +9,8 @@ public class BotonMomento : MonoBehaviour
     public string botonApretado;
     public string puzleListo;
     public string botonEquivocado;
+    public GameObject salida;
+   
     public enum BOTON_TYPE
     {
         BOTON_1,
@@ -108,10 +110,12 @@ public class BotonMomento : MonoBehaviour
                     {
                         Gamemanager.instancia.Showtext(textoBoton);
                         Gamemanager.instancia.cuartoBoton = true;
+                        salida.SetActive(true);
                     }
                     else if(Gamemanager.instancia.primerBoton && Gamemanager.instancia.tercerBoton && Gamemanager.instancia.segundoBoton && Gamemanager.instancia.cuartoBoton)
                     {
                         Gamemanager.instancia.Showtext(puzleListo);
+                       
                     }
                     else
                     {

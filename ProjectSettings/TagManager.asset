@@ -9,6 +9,7 @@ TagManager:
   - Pala
   - musica
   - notpala
+  - Salida
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FotosMomento : MonoBehaviour
 {
@@ -30,6 +31,12 @@ public class FotosMomento : MonoBehaviour
         {
             IA.instancia.velocidad = 0;
             Gamemanager.instancia.Showtext(textoFotos);
+            if (GameObject.FindGameObjectWithTag("Salida"))
+            {
+                SceneManager.LoadScene("Metroxd");
+            }
         }
+
+        
     }
 }
