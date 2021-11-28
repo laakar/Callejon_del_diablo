@@ -31,6 +31,12 @@ public class enumObjetos : MonoBehaviour
 
     }
 
+    IEnumerator enemigoEspera()
+    {
+        yield return new WaitForSecondsRealtime(1f);
+        IA.instancia.velocidad = 3;
+    }
+
     IEnumerator TiempoFunciones()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -126,15 +132,19 @@ public class enumObjetos : MonoBehaviour
             switch (casos)
             {
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
+                    IA.instancia.velocidad = 0;
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
                     Gamemanager.instancia.Showtext("Una llave, quizas me sea util...");
                     StartCoroutine(TiempoFunciones());
+                    StartCoroutine(enemigoEspera());
                     
                     break;
                     
 
                 case POSIBLES_CASOS.OBJETO_VACIO:
+                    IA.instancia.velocidad = 0;
                     Gamemanager.instancia.Showtext("Aqui no hay nada, seguire buscando");
+                    StartCoroutine(enemigoEspera());
                     break;
 
                 case POSIBLES_CASOS.PUERTA_UNO:
@@ -146,20 +156,26 @@ public class enumObjetos : MonoBehaviour
                     }
                     else
                     {
+                        IA.instancia.velocidad = 0;
                         Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
+                        StartCoroutine(enemigoEspera());
                     }
                     break;
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
+                    IA.instancia.velocidad = 0;
                     Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().leerNota = true;
                     llaveFinal.SetActive(true);
+                    StartCoroutine(enemigoEspera());
                     break;
 
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
+                    IA.instancia.velocidad = 0;
                     Gamemanager.instancia.Showtext("Creo que con esta llave deberia poder escapar");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal = true;
                     StartCoroutine(TiempoFunciones2());
+                    StartCoroutine(enemigoEspera());
                     break;
 
                 case POSIBLES_CASOS.PUERTA_FINAL:
@@ -169,16 +185,21 @@ public class enumObjetos : MonoBehaviour
                     }
                     else
                     {
+                        IA.instancia.velocidad = 0;
                         Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
+                        StartCoroutine(enemigoEspera());
                     }
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
                     {
+                        IA.instancia.velocidad = 0;
                         Gamemanager.instancia.Showtext("Esta no es la llave correcta, debo seguir investigando");
+                        StartCoroutine(enemigoEspera());
                     }
                     break;
 
                 case POSIBLES_CASOS.SILLA_CAMA:
 
+                    IA.instancia.velocidad = 0;
                     Gamemanager.instancia.Showtext("Este no es un buen momento para descansar");
                     break;
 
@@ -190,10 +211,12 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.OBJETO_SGT_NIVEL:
 
+                    IA.instancia.velocidad = 0;
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().objtSgtNivel = true;
                     Gamemanager.instancia.Showtext("Creo que escuche algo en la planta baja...., sera mejor que vaya a ver");
                     StartCoroutine(TiempoFunciones3());
                     pentagrama.SetActive(true);
+                    StartCoroutine(enemigoEspera());
                     break;
 
                 case POSIBLES_CASOS.SIGUIENTE_NIVEL:
