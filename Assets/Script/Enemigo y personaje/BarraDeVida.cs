@@ -11,17 +11,23 @@ public class BarraDeVida : MonoBehaviour
     public Slider sliderVida;
     private int damage = -10;
     public Image vidas;
-    public Sprite[] spriteVidas; 
+    public Sprite[] spriteVidas;
 
     public void Awake()
     {
-        
-          
         vida = this;
         vidas = GameObject.Find("vida").GetComponent<Image>();
         vidas.sprite = spriteVidas[0];
     }
-    
+
+    IEnumerator esperaEnemigo()
+    {
+        float velocidad = IA.instancia.velocidad;
+        IA.instancia.velocidad = 0;
+        yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = velocidad;
+    }
+
     public void Update()
     {
         //sliderVida.value = vidaMaxima;
@@ -41,8 +47,6 @@ public class BarraDeVida : MonoBehaviour
     }
      public Sprite cambiarVida()
     {
-        print("hola" + vidaMaxima);
-        //Sprite return spriteVidas [0];
         if(vidaMaxima>=90)
         {
             return spriteVidas[0];
@@ -96,6 +100,7 @@ public class BarraDeVida : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemigo"))
         {
             vidaMaxima = vidaMaxima + damage;
+            StartCoroutine(esperaEnemigo());
         }
     }
 }
