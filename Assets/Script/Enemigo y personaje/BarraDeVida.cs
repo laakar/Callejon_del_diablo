@@ -9,7 +9,7 @@ public class BarraDeVida : MonoBehaviour
     public static BarraDeVida vida;
     public int vidaMaxima = 100;
     public Slider sliderVida;
-    private int damage = -5;
+    private int damage = -10;
     public Image vidas;
     public Sprite[] spriteVidas; 
 
