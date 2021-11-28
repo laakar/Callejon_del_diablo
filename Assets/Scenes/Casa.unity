@@ -1136,7 +1136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &185018814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18534,6 +18534,10 @@ MonoBehaviour:
   dagobertoMomento: 0
   marioMomento: 0
   mateoSeguidor: 0
+  final1: 0
+  final2: 0
+  final3: 0
+  final4: 0
 --- !u!4 &2019041930
 Transform:
   m_ObjectHideFlags: 0

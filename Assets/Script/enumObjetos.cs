@@ -22,7 +22,11 @@ public class enumObjetos : MonoBehaviour
         SILLA_CAMA,
         TARJETA_EURIPIDES,
         TARJETA_DAGOBERTO,
-        TARJETA_MARIO
+        TARJETA_MARIO,
+        ANASTACIO,
+        EURIPIDES,
+        DAGOBERTO,
+        MARIO
 
 
     }
@@ -66,7 +70,38 @@ public class enumObjetos : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         gameObject.SetActive(false);
     }
-
+    IEnumerator AnastacioFinal()
+    {
+        Gamemanager.instancia.Showtext("Tu me ayudaste antes, dejame devolverte el favor. Habla con los demas fantasmas para poder escapar de aqui.");
+        Gamemanager.instancia.final1 = true;
+        yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = 3;
+        gameObject.SetActive(false);
+    }
+    IEnumerator EuripidesFinal()
+    {
+        Gamemanager.instancia.Showtext("¿SIGUES AQUI? NO TENGO TODO EL DIA, CORRE AL SIGUIENTE FANTASMA MIENTRAS AUN ESTOY DE BUEN HUMOR.");
+        Gamemanager.instancia.final2 = true;
+        yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = 3;
+        gameObject.SetActive(false);
+    }
+    IEnumerator DagobertoFinal()
+    {
+        Gamemanager.instancia.Showtext("Gracias por ayudarme, entre todos podemos romper el sello y ayudarte a escapar, no te rindas");
+        Gamemanager.instancia.final3 = true;
+        yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = 3;
+        gameObject.SetActive(false);
+    }
+    IEnumerator MarioFinal()
+    {
+        Gamemanager.instancia.Showtext("Corre hacia el pentagrama, nosotros romperemos el sello. No dejes que te atrape");
+        Gamemanager.instancia.final4 = true;
+        yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = 4;
+        gameObject.SetActive(false);
+    }
     public POSIBLES_CASOS casos;
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -180,6 +215,26 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.TARJETA_MARIO:
                     StartCoroutine(MarioAdios());
+                    break;
+
+                case POSIBLES_CASOS.ANASTACIO:
+                    IA.instancia.velocidad = 0;
+                    StartCoroutine(AnastacioFinal());
+                    break;
+
+                case POSIBLES_CASOS.EURIPIDES:
+                    IA.instancia.velocidad = 0;
+                    StartCoroutine(EuripidesFinal());
+                    break;
+
+                case POSIBLES_CASOS.DAGOBERTO:
+                    IA.instancia.velocidad = 0;
+                    StartCoroutine(DagobertoFinal());
+                    break;
+
+                case POSIBLES_CASOS.MARIO:
+                    IA.instancia.velocidad = 0;
+                    StartCoroutine(MarioFinal());
                     break;
             }
         }

@@ -19,7 +19,8 @@ public class tpEnemigo : MonoBehaviour
         HABITACION_1,
         BANO_2,
         PRINCIPIO,
-        METRO
+        METRO,
+        FINAL
     }
     public TP_ENEMIGO tpEnem;
     IEnumerator esperar()
@@ -77,6 +78,13 @@ public class tpEnemigo : MonoBehaviour
                     break;
 
                 case TP_ENEMIGO.METRO:
+                    eltripas.position = new Vector2(newX, newY);
+                    audioSrc.Play();
+                    StartCoroutine(esperar());
+                    break;
+
+                case TP_ENEMIGO.FINAL:
+                    IA.instancia.velocidad = 0;
                     eltripas.position = new Vector2(newX, newY);
                     audioSrc.Play();
                     StartCoroutine(esperar());
