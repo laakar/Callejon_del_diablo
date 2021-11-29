@@ -8,6 +8,7 @@ public class MarioMomento : MonoBehaviour
     public string primerTexto, textoIntermedio, textoFinal;
     public static MarioMomento instancia;
     public GameObject tarjeta;
+    public float velo;
 
     public void Awake()
     {
@@ -18,6 +19,7 @@ public class MarioMomento : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerAdentro = true;
+            velo = IA.instancia.velocidad;
         }
     }
 
@@ -27,6 +29,7 @@ public class MarioMomento : MonoBehaviour
         {
             playerAdentro = false;
             Gamemanager.instancia.Hidetext();
+            IA.instancia.velocidad = velo;
         }
     }
     IEnumerator AdiosMomento()
@@ -40,6 +43,7 @@ public class MarioMomento : MonoBehaviour
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             if (!primerEncuentro && !tarjetaMomento)
             {
                 Gamemanager.instancia.Showtext(primerTexto);

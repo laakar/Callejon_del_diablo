@@ -388,6 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &118273613
 SpriteRenderer:
@@ -688,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &160929044
 SpriteRenderer:
@@ -813,6 +815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &166790708
 SpriteRenderer:
@@ -1112,6 +1115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: 
+  velo: 0
   fotaza: 0
 --- !u!114 &211135521
 MonoBehaviour:
@@ -1127,6 +1131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &211135522
 SpriteRenderer:
@@ -1278,6 +1283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &222318370
 SpriteRenderer:
@@ -2024,6 +2030,7 @@ MonoBehaviour:
   textoPosible: Es una foto familiar, el padre de familia es igual al fantasma que
     viste, el reverso de la foto dice "Te queremos Anastacio". Esta es la foto que
     buscabas.
+  velo: 0
   fotaza: 1
 --- !u!212 &431426915
 SpriteRenderer:
@@ -2526,6 +2533,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
+  velo: 0
   casos: 11
 --- !u!61 &523320484
 BoxCollider2D:
@@ -2846,6 +2854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &555531120
 SpriteRenderer:
@@ -2971,6 +2980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &559352549
 SpriteRenderer:
@@ -3268,6 +3278,7 @@ MonoBehaviour:
   textoIntermedio: Tarjeta... amigo... tener...
   textoFinal: Ma...rio... gracias... amigo...
   tarjeta: {fileID: 901475189}
+  velo: 0
 --- !u!70 &564280159
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3641,8 +3652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 500, y: 200}
+  m_AnchoredPosition: {x: 0.000022888, y: 131.7682}
+  m_SizeDelta: {x: 800, y: 263.5364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586743895
 MonoBehaviour:
@@ -4514,6 +4525,7 @@ MonoBehaviour:
   textoIntermedio: Porfavor... sin mi nombre no puedo escapar...
   textoFinal: Dagoberto... muchas gracias amigo, espero tu tambien logres escapar...
   tarjeta: {fileID: 523320482}
+  velo: 0
 --- !u!1 &745660928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4561,6 +4573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &745660931
 SpriteRenderer:
@@ -4908,6 +4921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &820296792
 SpriteRenderer:
@@ -5447,6 +5461,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
+  velo: 0
   casos: 12
 --- !u!61 &901475191
 BoxCollider2D:
@@ -6029,7 +6044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &981684910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6042,7 +6057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea2b9826697dc63428f7f064e2a8eda8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
+  timer: 60
   timerText: {fileID: 1753299736}
   timerMomento: 0
   tarjeta: {fileID: 2010770140}
@@ -6096,7 +6111,7 @@ MonoBehaviour:
   primerEncuentro: 0
   tarjetaMomento: 0
   tarjeta: {fileID: 2010770140}
-  timer: {fileID: 0}
+  timer: {fileID: 981684909}
   playerAdentro: 0
   textoPrimerEncuentro: MI NOMBRE. DIME MI BOMBRE EN 60 SEGUNDOS O TE MATARE. MI
     TARJETA IDENTIFICADORA ESTA EN ALGUN LUGAR DE ESTA ESTACION. CORRE.
@@ -6104,6 +6119,7 @@ MonoBehaviour:
   textoGanaste: EURIPIDES, SI, ESE ES MI NOMBRE. AL FIN PUEDO IRME DE ESTE LUGAR,
     AGRADECE QUE ESTOY DE BUEN HUMOR Y NO TE MATARE
   textoPayaso: "\xBFQUE HACES AQUI? EL RELOJ CORRE, TIC TOC TIC TOC."
+  velo: 0
 --- !u!212 &1064878452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6673,8 +6689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -22, y: 90}
-  m_SizeDelta: {x: 376.74512, y: 124.9043}
+  m_AnchoredPosition: {x: 0, y: 131.77}
+  m_SizeDelta: {x: 520.3583, y: 114.531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109150858
 MonoBehaviour:
@@ -6759,7 +6775,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -170.30414, y: 3.3145523, z: -241.44969, w: -19.188694}
+  m_margin: {x: 2.1517258, y: 3.3145523, z: 1.0257568, w: -2.3320541}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7209,6 +7225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &1246832104
 SpriteRenderer:
@@ -10550,6 +10567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &1856568722
 SpriteRenderer:
@@ -11750,6 +11768,7 @@ MonoBehaviour:
   fotoMomento: 0
   primerEncuentro: 0
   playerAdentro: 0
+  velo: 0
 --- !u!70 &2003339087
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -11891,6 +11910,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 981684909}
+  velo: 0
   casos: 10
 --- !u!61 &2010770142
 BoxCollider2D:
@@ -12380,6 +12400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerinZone: 0
+  velo: 0
 --- !u!1 &2067443736
 GameObject:
   m_ObjectHideFlags: 0
@@ -12509,6 +12530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: "Es una foto de la estaci\xF3n, no la que buscas."
+  velo: 0
   fotaza: 0
 --- !u!212 &2112802822
 SpriteRenderer:

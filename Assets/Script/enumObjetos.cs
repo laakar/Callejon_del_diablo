@@ -7,6 +7,7 @@ public class enumObjetos : MonoBehaviour
 {
     public bool playerinZone;
     public GameObject puertaUno, puertaFinal, llaveFinal, llaveUno, pentagrama, objetoFinal, timer;
+    public float velo;
     
     public enum POSIBLES_CASOS
     {
@@ -34,7 +35,7 @@ public class enumObjetos : MonoBehaviour
     IEnumerator enemigoEspera()
     {
         yield return new WaitForSecondsRealtime(1f);
-        IA.instancia.velocidad = 3;
+        IA.instancia.velocidad = velo;
     }
 
     IEnumerator TiempoFunciones()
@@ -58,6 +59,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Esta es la chaqueta que me pidio el fantasma... Su nombre es Dagoberto.");
         AnastacioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = velo;
         AnastacioMomento.instancia.tarjeta.SetActive(false);
     }
 
@@ -67,6 +69,7 @@ public class enumObjetos : MonoBehaviour
         timer.SetActive(false);
         DagobertoMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = velo;
         DagobertoMomento.instancia.tarjeta.SetActive(false);
     }
     IEnumerator MarioAdios()
@@ -74,6 +77,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Mario.");
         MarioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
+        IA.instancia.velocidad = velo;
         gameObject.SetActive(false);
     }
     IEnumerator AnastacioFinal()
@@ -81,7 +85,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Tu me ayudaste antes, dejame devolverte el favor. Habla con los demas fantasmas para poder escapar de aqui.");
         Gamemanager.instancia.final1 = true;
         yield return new WaitForSecondsRealtime(2f);
-        IA.instancia.velocidad = 3;
+        IA.instancia.velocidad = velo;
         gameObject.SetActive(false);
     }
     IEnumerator EuripidesFinal()
@@ -89,7 +93,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("¿SIGUES AQUI? NO TENGO TODO EL DIA, CORRE AL SIGUIENTE FANTASMA MIENTRAS AUN ESTOY DE BUEN HUMOR.");
         Gamemanager.instancia.final2 = true;
         yield return new WaitForSecondsRealtime(2f);
-        IA.instancia.velocidad = 3;
+        IA.instancia.velocidad = velo;
         gameObject.SetActive(false);
     }
     IEnumerator DagobertoFinal()
@@ -97,7 +101,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Gracias por ayudarme, entre todos podemos romper el sello y ayudarte a escapar, no te rindas");
         Gamemanager.instancia.final3 = true;
         yield return new WaitForSecondsRealtime(2f);
-        IA.instancia.velocidad = 3;
+        IA.instancia.velocidad = velo;
         gameObject.SetActive(false);
     }
     IEnumerator MarioFinal()
@@ -105,7 +109,7 @@ public class enumObjetos : MonoBehaviour
         Gamemanager.instancia.Showtext("Corre hacia el pentagrama, nosotros romperemos el sello. No dejes que te atrape");
         Gamemanager.instancia.final4 = true;
         yield return new WaitForSecondsRealtime(2f);
-        IA.instancia.velocidad = 4;
+        IA.instancia.velocidad = velo;
         gameObject.SetActive(false);
     }
     public POSIBLES_CASOS casos;
@@ -114,6 +118,7 @@ public class enumObjetos : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerinZone = true;
+            velo = IA.instancia.velocidad;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -129,6 +134,7 @@ public class enumObjetos : MonoBehaviour
     {
         if (playerinZone && (Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             switch (casos)
             {
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:

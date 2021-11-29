@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 public class CambioMetro : MonoBehaviour
 {
     public bool playerinZone;
+    public float velo;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             playerinZone = true;
+            velo = IA.instancia.velocidad;
         }
     }
 
@@ -19,6 +21,7 @@ public class CambioMetro : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Gamemanager.instancia.Hidetext();
+            IA.instancia.velocidad = velo;
             playerinZone = false;
         }
     }
@@ -26,12 +29,13 @@ public class CambioMetro : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(2f);
         Gamemanager.instancia.Hidetext();
-        SceneManager.LoadScene("Pantalla inicio", LoadSceneMode.Single);
+        SceneManager.LoadScene("Final", LoadSceneMode.Single);
     }
     void Update()
     {
         if (playerinZone && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             Gamemanager.instancia.Showtext("No te separes Mateo, no sabemos a donde nos llevara esto");
             StartCoroutine(Pasar());
         }

@@ -14,6 +14,7 @@ public class DagobertoMomento : MonoBehaviour
     public string textoFallaste;
     public string textoGanaste;
     public string textoPayaso;
+    public float velo;
 
     public void Awake()
     {
@@ -25,6 +26,7 @@ public class DagobertoMomento : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerAdentro = true;
+            velo = IA.instancia.velocidad;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -33,6 +35,7 @@ public class DagobertoMomento : MonoBehaviour
         {
             Gamemanager.instancia.Hidetext();
             playerAdentro = false;
+            IA.instancia.velocidad = velo;
         }
     }
 
@@ -50,6 +53,7 @@ public class DagobertoMomento : MonoBehaviour
     {
         if(playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             if(!primerEncuentro)
             {
                 Gamemanager.instancia.Showtext(textoPrimerEncuentro);

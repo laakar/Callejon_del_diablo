@@ -8,7 +8,7 @@ public class AnastacioMomento : MonoBehaviour
     public string primerTexto, textoIntermedio, textoFinal;
     public static AnastacioMomento instancia;
     public GameObject tarjeta;
-
+    public float velo;
     public void Awake()
     {
         instancia = this;
@@ -19,6 +19,7 @@ public class AnastacioMomento : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerAdentro = true;
+            velo = IA.instancia.velocidad;
         }
     }
 
@@ -28,6 +29,7 @@ public class AnastacioMomento : MonoBehaviour
         {
             playerAdentro = false;
             Gamemanager.instancia.Hidetext();
+            IA.instancia.velocidad = velo;
         }
     }
 
@@ -43,6 +45,7 @@ public class AnastacioMomento : MonoBehaviour
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             if(!primerEncuentro && !tarjetaMomento)
             {
                 Gamemanager.instancia.Showtext(primerTexto);

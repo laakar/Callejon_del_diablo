@@ -9,6 +9,7 @@ public class EuripidesMomento : MonoBehaviour
     public static EuripidesMomento instancia;
     public bool primerEncuentro;
     public bool playerAdentro;
+    public float velo;
 
 
     private void Awake()
@@ -30,6 +31,7 @@ public class EuripidesMomento : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             playerAdentro = true;
+            velo = IA.instancia.velocidad;
         }
     }
 
@@ -37,6 +39,7 @@ public class EuripidesMomento : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            IA.instancia.velocidad = velo;
             playerAdentro = false;
             Gamemanager.instancia.Hidetext();
         }
@@ -45,6 +48,7 @@ public class EuripidesMomento : MonoBehaviour
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            IA.instancia.velocidad = 0;
             if (!primerEncuentro && !fotoMomento)
             {
                 Gamemanager.instancia.Showtext("MI NOMBRE... DIME MI NOMBRE O TE MATARE... ESTA EN ALGUN LUGAR DE ESTA HABITACIÓN");

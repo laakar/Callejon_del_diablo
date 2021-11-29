@@ -37,12 +37,12 @@ public class FotoMomento : MonoBehaviour
             IA.instancia.velocidad = 0;
             if(Gamemanager.instancia.primerBoton && Gamemanager.instancia.segundoBoton && Gamemanager.instancia.tercerBoton && Gamemanager.instancia.cuartoBoton)
             {
-                Gamemanager.instancia.Showtext("orden correcto");
+                Gamemanager.instancia.Showtext("El pentagrama empieza a brillar");
                 StartCoroutine(Pasar());
             }
             else
             {
-                Gamemanager.instancia.Showtext("hiciste mal el puzle washito");
+                Gamemanager.instancia.Showtext("No pasa nada");
             }
         }
     }
