@@ -138,7 +138,7 @@ public class enumObjetos : MonoBehaviour
             switch (casos)
             {
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
-                    IA.instancia.velocidad = 0;
+                    
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
                     Gamemanager.instancia.Showtext("Una llave, quizas me sea util...");
                     StartCoroutine(TiempoFunciones());
@@ -148,7 +148,7 @@ public class enumObjetos : MonoBehaviour
                     
 
                 case POSIBLES_CASOS.OBJETO_VACIO:
-                    IA.instancia.velocidad = 0;
+                    
                     Gamemanager.instancia.Showtext("Aqui no hay nada, seguire buscando");
                     StartCoroutine(enemigoEspera());
                     break;
@@ -162,14 +162,14 @@ public class enumObjetos : MonoBehaviour
                     }
                     else
                     {
-                        IA.instancia.velocidad = 0;
+                        
                         Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
                         StartCoroutine(enemigoEspera());
                     }
                     break;
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
-                    IA.instancia.velocidad = 0;
+                    
                     Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().leerNota = true;
                     llaveFinal.SetActive(true);
@@ -177,7 +177,7 @@ public class enumObjetos : MonoBehaviour
                     break;
 
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
-                    IA.instancia.velocidad = 0;
+                   
                     Gamemanager.instancia.Showtext("Creo que con esta llave deberia poder escapar");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal = true;
                     StartCoroutine(TiempoFunciones2());
@@ -188,25 +188,26 @@ public class enumObjetos : MonoBehaviour
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal == true)
                     {
                         puertaFinal.SetActive(false);
+                        StartCoroutine(enemigoEspera());
                     }
                     else
                     {
-                        IA.instancia.velocidad = 0;
+                        
                         Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
                         StartCoroutine(enemigoEspera());
                     }
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
                     {
-                        IA.instancia.velocidad = 0;
+                        
                         Gamemanager.instancia.Showtext("Esta no es la llave correcta, debo seguir investigando");
                         StartCoroutine(enemigoEspera());
                     }
                     break;
 
                 case POSIBLES_CASOS.SILLA_CAMA:
-
-                    IA.instancia.velocidad = 0;
+                    
                     Gamemanager.instancia.Showtext("Este no es un buen momento para descansar");
+                    StartCoroutine(enemigoEspera());
                     break;
 
                 case POSIBLES_CASOS.BOTIQUIN:
@@ -217,7 +218,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.OBJETO_SGT_NIVEL:
 
-                    IA.instancia.velocidad = 0;
+                    
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().objtSgtNivel = true;
                     Gamemanager.instancia.Showtext("Creo que escuche algo en la planta baja...., sera mejor que vaya a ver");
                     StartCoroutine(TiempoFunciones3());
