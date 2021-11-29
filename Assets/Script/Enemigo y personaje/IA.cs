@@ -36,5 +36,8 @@ public class IA : MonoBehaviour
         anima.SetFloat("Horizontal",movi.x);
         anima.SetFloat("Vertical", movi.y);
         anima.SetFloat("Speed", tripas.position.sqrMagnitude);
+       
+        
     }
+    
 }

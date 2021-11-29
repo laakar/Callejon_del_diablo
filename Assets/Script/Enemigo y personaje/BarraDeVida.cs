@@ -43,7 +43,7 @@ public class BarraDeVida : MonoBehaviour
             SceneManager.LoadScene("Pantalla Gameover");
         }
         vidas.sprite = cambiarVida();
-        print(vidaMaxima);
+        //print(vidaMaxima);
     }
      public Sprite cambiarVida()
     {
