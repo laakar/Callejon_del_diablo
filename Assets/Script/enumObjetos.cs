@@ -140,7 +140,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
                     
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
-                    Gamemanager.instancia.Showtext("Una llave, quizas me sea util...");
+                    Gamemanager.instancia.Showtext("Una llave, quizas me sea útil...");
                     StartCoroutine(TiempoFunciones());
                     StartCoroutine(enemigoEspera());
                     
@@ -149,7 +149,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.OBJETO_VACIO:
                     
-                    Gamemanager.instancia.Showtext("Aqui no hay nada, seguire buscando");
+                    Gamemanager.instancia.Showtext("Aquí no hay nada, seguire buscando");
                     StartCoroutine(enemigoEspera());
                     break;
 

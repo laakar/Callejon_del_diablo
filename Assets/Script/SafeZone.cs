@@ -19,6 +19,9 @@ public class SafeZone : MonoBehaviour
     public AudioSource cancionLinda;
     public float mateoAdentroX, mateoAdentroY, mateoAfueraX, mateoAfueraY;
 
+    public Sprite puertaAbierta;
+    public GameObject puerta;
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
@@ -42,6 +45,9 @@ public class SafeZone : MonoBehaviour
         {
             if(!playerSafe)
             {
+                puerta.GetComponent<SpriteRenderer>().sprite = puertaAbierta;
+                puerta.GetComponent<BoxCollider2D>().isTrigger = true;
+
                 cancionFea.Stop();
                 cancionLinda.Play();
                 tripasTrans.SetPositionAndRotation(new Vector3(tripasX, tripasY), new Quaternion(0,0,0,0));

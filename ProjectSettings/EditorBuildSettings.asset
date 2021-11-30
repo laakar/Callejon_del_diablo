@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pantalla Gameover.unity
     guid: 3960b949d313b4f48b9514a8f0dfcba5
+  - enabled: 1
+    path: Assets/Scenes/Metroxd.unity
+    guid: ec4324a38a913024a905a0ef985d4fc7
   m_configObjects: {}

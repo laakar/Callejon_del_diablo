@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PuertaMetro : MonoBehaviour
 {
+    public GameObject puerta;
     public bool playerAdentro;
     public bool playerSafe;
     public float safeX;
@@ -12,6 +13,7 @@ public class PuertaMetro : MonoBehaviour
     public float unsafeY;
     public Transform playerTrans, mateoTrans;
     public float mateoAdentroX, mateoAdentroY, mateoAfueraX, mateoAfueraY;
+    public Sprite puertaAbierta;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -33,9 +35,12 @@ public class PuertaMetro : MonoBehaviour
     {
         if (playerAdentro && (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("space")))
         {
+            puerta.GetComponent<SpriteRenderer>().sprite = puertaAbierta;
+            puerta.GetComponent<BoxCollider2D>().isTrigger = true;
+          
             if (!playerSafe)
             {
-                playerTrans.SetPositionAndRotation(new Vector3(safeX, safeY), new Quaternion(0, 0, 0, 0));
+               // playerTrans.SetPositionAndRotation(new Vector3(safeX, safeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = true;
                 if (Gamemanager.instancia.mateoSeguidor)
                 {
