@@ -56,7 +56,7 @@ public class enumObjetos : MonoBehaviour
 
     IEnumerator DagobertoMomentoXd()
     {
-        Gamemanager.instancia.Showtext("Esta es la chaqueta que me pidio el fantasma... Su nombre es Dagoberto.");
+        Gamemanager.instancia.Showtext("Esta es la chaqueta que me pidió el fantasma. Su nombre es Dagoberto.");
         AnastacioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -65,7 +65,7 @@ public class enumObjetos : MonoBehaviour
 
     IEnumerator EuripidesFoto()
     {
-        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma, su nombre es Euripides. Mejor se la entrego antes de que sea demasiado tarde.");
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidió el fantasma, su nombre es Euripides. Mejor se la entrego antes de que sea demasiado tarde.");
         timer.SetActive(false);
         DagobertoMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
@@ -74,7 +74,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator MarioAdios()
     {
-        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidio el fantasma... Su nombre es Mario.");
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidió el fantasma. Asi que su nombre es Mario.");
         MarioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -82,7 +82,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator AnastacioFinal()
     {
-        Gamemanager.instancia.Showtext("Tu me ayudaste antes, dejame devolverte el favor. Habla con los demas fantasmas para poder escapar de aqui.");
+        Gamemanager.instancia.Showtext("Tu me ayudaste antes, déjame devolverte el favor. Habla con los demás fantasmas para poder escapar de aquí.");
         Gamemanager.instancia.final1 = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -90,7 +90,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator EuripidesFinal()
     {
-        Gamemanager.instancia.Showtext("¿SIGUES AQUI? NO TENGO TODO EL DIA, CORRE AL SIGUIENTE FANTASMA MIENTRAS AUN ESTOY DE BUEN HUMOR.");
+        Gamemanager.instancia.Showtext("¿Sigues aquí? No tengo todo el día. Debes correr hacia el siguiente fantasma, deberías agradecer que sigo de buen humor.");
         Gamemanager.instancia.final2 = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -106,7 +106,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator MarioFinal()
     {
-        Gamemanager.instancia.Showtext("Corre hacia el pentagrama, nosotros romperemos el sello. No dejes que te atrape");
+        Gamemanager.instancia.Showtext("Corre hacia el pentagrama, nosotros romperemos el sello. ¡No dejes que te atrape!");
         Gamemanager.instancia.final4 = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -140,7 +140,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.LLAVE_PUERTA_UNO:
                     
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = true;
-                    Gamemanager.instancia.Showtext("Una llave, quizas me sea útil...");
+                    Gamemanager.instancia.Showtext("Una llave, quizás me sea útil...");
                     StartCoroutine(TiempoFunciones());
                     StartCoroutine(enemigoEspera());
                     
@@ -164,14 +164,14 @@ public class enumObjetos : MonoBehaviour
                     else
                     {
                         
-                        Gamemanager.instancia.Showtext("Esta cerrada, creo que necesito una llave");
+                        Gamemanager.instancia.Showtext("Esta cerrada, creó que necesito una llave");
                         StartCoroutine(enemigoEspera());
                     }
                     break;
 
                 case POSIBLES_CASOS.NOTA_LLAVE_FINAL:
                     
-                    Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda, las llaves de repuesto estan escondidas en la cocina");
+                    Gamemanager.instancia.Showtext("Encuentras una nota y dice lo siguiente: Recuerda que las llaves de repuesto estan escondidas en la cocina");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().leerNota = true;
                     llaveFinal.SetActive(true);
                     StartCoroutine(enemigoEspera());
@@ -179,7 +179,7 @@ public class enumObjetos : MonoBehaviour
 
                 case POSIBLES_CASOS.LLAVE_PUERTA_FINAL:
                    
-                    Gamemanager.instancia.Showtext("Creo que con esta llave deberia poder escapar");
+                    Gamemanager.instancia.Showtext("Creo que con esta llave debería poder escapar");
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal = true;
                     StartCoroutine(TiempoFunciones2());
                     StartCoroutine(enemigoEspera());
@@ -221,7 +221,7 @@ public class enumObjetos : MonoBehaviour
 
                     
                     GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().objtSgtNivel = true;
-                    Gamemanager.instancia.Showtext("Creo que escuche algo en la planta baja...., sera mejor que vaya a ver");
+                    Gamemanager.instancia.Showtext("Creo que escuche algo en la planta baja, sera mejor que vaya a ver");
                     StartCoroutine(TiempoFunciones3());
                     pentagrama.SetActive(true);
                     StartCoroutine(enemigoEspera());

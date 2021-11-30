@@ -1658,7 +1658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoFotos: Encuentras una foto, ves un rio azul verdoso, con cuatro personas ahogadas
+  textoFotos: "Encuentras una foto, ves un r\xEDo azul verdoso, con cuatro personas
+    ahogadas."
 --- !u!61 &493802279
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2332,10 +2333,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoBoton: apretaste el boton
-  botonApretado: ya apretaste este boton
-  puzleListo: no necesitas esto
-  botonEquivocado: te equivocaste de boton
+  textoBoton: "Apretaste el bot\xF3n."
+  botonApretado: "Ya apretaste este bot\xF3n."
+  puzleListo: No necesitas esto.
+  botonEquivocado: "Te  equivocaste de bot\xF3n."
   salida: {fileID: 558145617}
   botones: 0
 --- !u!1 &660903419
@@ -2459,8 +2460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoFotos: Encuentras una foto, ves un solo arbol verde en un vacio completamente
-    negro.
+  textoFotos: "Encuentras una foto, ves un solo \xE1rbol verde en un vac\xEDo completamente
+    negro."
 --- !u!61 &662677746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4840,8 +4841,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoFotos: Encuentras una foto, ves varias personas ahorcadas, y detras de ellas
-    tres soles amarillos.
+  textoFotos: "Encuentras una foto, ves varias personas ahorcadas y detr\xE1s de
+    ellas se ven tres soles amarillos."
 --- !u!1 &1295168376
 GameObject:
   m_ObjectHideFlags: 0
@@ -6730,7 +6731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoFotos: Encuentras una foto, en ella puedes ver dos lilas floreciendo de cadaveres.
+  textoFotos: "Encuentras una foto, en ella puedes ver dos lilas floreciendo de cad\xE1veres."
 --- !u!61 &1627756053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7243,10 +7244,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoBoton: apretaste el boton
-  botonApretado: ya apretaste este boton
-  puzleListo: no necesitas esto
-  botonEquivocado: te equivocaste de boton
+  textoBoton: "Apretaste el bot\xF3n."
+  botonApretado: "Ya apretaste este bot\xF3n."
+  puzleListo: No necesitas esto.
+  botonEquivocado: "Te equivocaste de bot\xF3n."
   salida: {fileID: 558145617}
   botones: 3
 --- !u!61 &1880483558
@@ -7463,10 +7464,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoBoton: apretaste el boton
-  botonApretado: ya apretaste este boton
-  puzleListo: no necesitas esto
-  botonEquivocado: te equivocaste
+  textoBoton: "Apretaste el bot\xF3n."
+  botonApretado: "Ya apretaste este bot\xF3n."
+  puzleListo: No necesitas esto.
+  botonEquivocado: Te equivocaste.
   salida: {fileID: 558145617}
   botones: 1
 --- !u!1 &1937146722
@@ -7592,10 +7593,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAdentro: 0
-  textoBoton: apretaste el boton
-  botonApretado: ya apretaste este boton
-  puzleListo: no necesitas esto
-  botonEquivocado: te equivocaste de boton
+  textoBoton: "Apretaste el bot\xF3n."
+  botonApretado: "Ya apretaste este bot\xF3n."
+  puzleListo: No necesitas esto.
+  botonEquivocado: "Te equivocaste de bot\xF3n."
   salida: {fileID: 558145617}
   botones: 2
 --- !u!1 &1994406190

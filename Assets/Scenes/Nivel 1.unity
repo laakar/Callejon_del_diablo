@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f3c646cc63ebf4e93c0a1a00c9603f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoposibled: Necesito una llave...
+  textoposibled: Necesitas una llave.
   playerinZone: 0
 --- !u!61 &566538188
 BoxCollider2D:
@@ -2967,7 +2967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb892066ca66b14d9e1b7aa839981dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoposible: Encuentras una pala
+  textoposible: Encuentras una pala.
   playerinZone: 0
   keymoment: 0
   pala: {fileID: 1322929653}
@@ -7959,7 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb892066ca66b14d9e1b7aa839981dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoposible: Usa la Cruceta para Moverte, Interactua con Cuadrado
+  textoposible: Usa la Cruceta para moverte. Interactua con Cuadrado
   playerinZone: 0
   keymoment: 0
   pala: {fileID: 457790762}
@@ -8136,8 +8136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoposible: Por curiosidad, excavas para ver que puede haber dentro, y encuentras
-    una pila
-  textoposible2: Podria haber algo abajo, quiza si tuvieras una pala...
+    una LAVE.
+  textoposible2: "Podr\xCDa haber algo abajo, quiz\xE1s si tuvieras una pala."
   playerinZone: 0
 --- !u!212 &2040416523
 SpriteRenderer:

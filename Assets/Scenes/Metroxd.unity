@@ -2030,7 +2030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAdentro: 0
   textoPosible: Es una foto familiar, el padre de familia es igual al fantasma que
-    viste, el reverso de la foto dice "Te queremos Anastacio". Esta es la foto que
+    viste. el reverso de la foto dice "Te queremos Anastacio". Esta es la foto que
     buscabas.
   velo: 0
   fotaza: 1
@@ -3095,8 +3095,9 @@ MonoBehaviour:
   mateo: {fileID: 1102493122}
   playerAdentro: 0
   siguemeMateo: 0
-  textoMateo: "\xBFJuan?... realmente eres tu... no se que esta pasando, pero tenemos
-    que salir de aqui... quiza si ayudamos a esos fantasmas podremos salir."
+  textoMateo: "\xBFJuan?... realmente eres t\xFA.. no s\xE9 que est\xE1 pasando,
+    pero tenemos que salir de aqui... quizas ahora que tu estas aqu\xED pueda salir
+    de esta habitaci\xF3n."
 --- !u!70 &560562102
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4529,10 +4530,11 @@ MonoBehaviour:
   tarjetaMomento: 0
   playerAdentro: 0
   primerEncuentro: 0
-  primerTexto: Ayudame porfavor... necesito saber mi nombre... mi chaqueta lo tenia
-    bordado, pero nose donde esta... porfavor encuentrala
-  textoIntermedio: Porfavor... sin mi nombre no puedo escapar...
-  textoFinal: Dagoberto... muchas gracias amigo, espero tu tambien logres escapar...
+  primerTexto: "Ayudame por favor... necesito saber mi nombre... mi chaqueta lo ten\xEDa
+    bordado, pero no s\xE9 d\xF3nde est\xE1... por favor encu\xE9ntrala."
+  textoIntermedio: Por favor... sin mi nombre no puedo escapar...
+  textoFinal: "Dagoberto... muchas gracias amigo, espero t\xFA tambi\xE9n logres
+    escapar..."
   tarjeta: {fileID: 523320482}
   velo: 0
 --- !u!1001 &724217968
@@ -6416,12 +6418,13 @@ MonoBehaviour:
   tarjeta: {fileID: 2010770140}
   timer: {fileID: 981684909}
   playerAdentro: 0
-  textoPrimerEncuentro: MI NOMBRE. DIME MI BOMBRE EN 60 SEGUNDOS O TE MATARE. MI
-    TARJETA IDENTIFICADORA ESTA EN ALGUN LUGAR DE ESTA ESTACION. CORRE.
-  textoFallaste: ODIO A LA GENTE IMPUNTUAL
-  textoGanaste: EURIPIDES, SI, ESE ES MI NOMBRE. AL FIN PUEDO IRME DE ESTE LUGAR,
-    AGRADECE QUE ESTOY DE BUEN HUMOR Y NO TE MATARE
-  textoPayaso: "\xBFQUE HACES AQUI? EL RELOJ CORRE, TIC TOC TIC TOC."
+  textoPrimerEncuentro: "DimMi nombre... \xA1Mi nombre!  Te doy 60 segunos o... \xA1Te
+    matar\xE9! Creo que mi tarjeta de identificaci\xF3n esta en algun lugar de la
+    estaci\xF3n. Corre."
+  textoFallaste: "\xA1Odio a la gente impuntual!"
+  textoGanaste: "Euripides si, ese es mi nombre. Al fin puedo irme de de este lugar;
+    agradece que estoy de buen humor y no tematar\xE9."
+  textoPayaso: "\xBFQu\xE9 haces aqu\xED? El reloj corre, tic ttac, tic tac..."
   velo: 0
 --- !u!212 &1064878452
 SpriteRenderer:
