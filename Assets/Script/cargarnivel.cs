@@ -14,4 +14,8 @@ public class cargarnivel : MonoBehaviour
     {
         SceneManager.LoadScene("Casa", LoadSceneMode.Single);
     }
+    public void cargarCreditos()
+    {
+        SceneManager.LoadScene("Creditos", LoadSceneMode.Single);
+    }
 }
