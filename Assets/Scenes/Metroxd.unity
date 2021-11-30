@@ -194,7 +194,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 022a6d66edafbb341bc24f85f9fc9258, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -303,7 +303,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b0cadfa7a2a0a184bb17e6fa721294ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3093,6 +3093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mateo: {fileID: 1102493122}
+  mateostop: {fileID: 1167420894}
   playerAdentro: 0
   siguemeMateo: 0
   textoMateo: "\xBFJuan?... realmente eres t\xFA.. no s\xE9 que est\xE1 pasando,
@@ -4544,6 +4545,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7879516275359185060, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_margin.x
+      value: 1.8297119
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275359185060, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_margin.y
+      value: 5.601349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275359185060, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_margin.z
+      value: -1.4038696
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275398048788, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 871.9286
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275398048788, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 163.0535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275398048788, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 460.74387
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879516275398048788, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.51226
+      objectReference: {fileID: 0}
     - target: {fileID: 7879516276290833860, guid: 84b62c0c6a45b7d4d8549ab069de8d42, type: 3}
       propertyPath: m_Name
       value: interactuar
@@ -6979,7 +7008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1167420895
 Transform:
   m_ObjectHideFlags: 0

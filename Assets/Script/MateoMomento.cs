@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MateoMomento : MonoBehaviour
 {
-    public GameObject mateo;
+    public GameObject mateo, mateostop;
     public bool playerAdentro, siguemeMateo;
     public string textoMateo;
     public void OnTriggerEnter2D(Collider2D collision)
@@ -25,6 +25,7 @@ public class MateoMomento : MonoBehaviour
             {
                 mateo.SetActive(true);
                 Destroy(gameObject);
+                mateostop.SetActive(true);
             }    
         }
     }
