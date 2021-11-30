@@ -31,7 +31,6 @@ public class EuripidesMomento : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             playerAdentro = true;
-            velo = IA.instancia.velocidad;
         }
     }
 

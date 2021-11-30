@@ -26,7 +26,6 @@ public class DagobertoMomento : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerAdentro = true;
-            velo = IA.instancia.velocidad;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

@@ -118,7 +118,6 @@ public class enumObjetos : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerinZone = true;
-            velo = IA.instancia.velocidad;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

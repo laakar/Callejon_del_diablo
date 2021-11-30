@@ -13,7 +13,7 @@ public class Opciones : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown("joystick button 5"))
+        if(Input.GetKeyDown("joystick button 9"))
         {
             if(opcionesArriba)
             {

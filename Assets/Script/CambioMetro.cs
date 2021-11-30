@@ -12,7 +12,6 @@ public class CambioMetro : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerinZone = true;
-            velo = IA.instancia.velocidad;
         }
     }
 

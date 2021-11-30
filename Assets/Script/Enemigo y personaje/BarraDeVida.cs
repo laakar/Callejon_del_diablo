@@ -12,6 +12,7 @@ public class BarraDeVida : MonoBehaviour
     private int damage = -10;
     public Image vidas;
     public Sprite[] spriteVidas;
+    public float velo;
 
     public void Awake()
     {
@@ -22,10 +23,9 @@ public class BarraDeVida : MonoBehaviour
 
     IEnumerator esperaEnemigo()
     {
-        float velocidad = IA.instancia.velocidad;
         IA.instancia.velocidad = 0;
         yield return new WaitForSecondsRealtime(2f);
-        IA.instancia.velocidad = velocidad;
+        IA.instancia.velocidad = velo;
     }
 
     public void Update()
