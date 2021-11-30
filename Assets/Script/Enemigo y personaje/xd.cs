@@ -12,21 +12,20 @@ public class xd : MonoBehaviour
     Rigidbody2D rb2d;
     Vector2 mov;
     public Animator anim;
+    public Transform playerTransform;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
     }
     void Update()
     {
+            mov.x = Input.GetAxis("Horizontal");
+            mov.y = Input.GetAxis("Vertical");
 
-        mov.x = Input.GetAxisRaw("Horizontal");
-        mov.y = Input.GetAxisRaw("Vertical");
-
-        anim.SetFloat("Horizontal", mov.x);
-        anim.SetFloat("Vertical", mov.y);
-        anim.SetFloat("Speed", mov.sqrMagnitude);
+            anim.SetFloat("Horizontal", mov.x);
+            anim.SetFloat("Vertical", mov.y);
+            anim.SetFloat("Speed", mov.sqrMagnitude);
     }
-
     private void FixedUpdate()
     {
         rb2d.MovePosition(rb2d.position + mov * velocidad * Time.deltaTime);
