@@ -156,6 +156,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.PUERTA_UNO:
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno == true)
                     {
+                        IA.instancia.velocidad = velo;
                         puertaUno.SetActive(false);
                         Destroy(gameObject);
                         GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaUno = false;
