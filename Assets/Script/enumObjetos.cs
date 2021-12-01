@@ -90,7 +90,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator EuripidesFinal()
     {
-        Gamemanager.instancia.Showtext("¿Sigues aquí? No tengo todo el día. Debes correr hacia el siguiente fantasma, deberías agradecer que sigo de buen humor.");
+        Gamemanager.instancia.Showtext("¿Sigues aquí? No tengo todo el día. Corre y has lo que tengas que hacer, ¿O acaso tengo que repetirtelo?");
         Gamemanager.instancia.final2 = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -106,7 +106,7 @@ public class enumObjetos : MonoBehaviour
     }
     IEnumerator MarioFinal()
     {
-        Gamemanager.instancia.Showtext("Corre hacia el pentagrama, nosotros romperemos el sello. ¡No dejes que te atrape!");
+        Gamemanager.instancia.Showtext("Nosotros romperemos el sello, habla con los demas. ¡No dejes que te atrape!");
         Gamemanager.instancia.final4 = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;
@@ -188,7 +188,6 @@ public class enumObjetos : MonoBehaviour
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal == true)
                     {
                         puertaFinal.SetActive(false);
-                        StartCoroutine(enemigoEspera());
                     }
                     else
                     {

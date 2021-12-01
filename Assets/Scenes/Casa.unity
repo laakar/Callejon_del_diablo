@@ -443,7 +443,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.9399996, y: -62.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 148514656}
   m_Father: {fileID: 2072898565}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -467,7 +468,7 @@ MonoBehaviour:
   pentagrama: {fileID: 66866561}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 8
 --- !u!58 &66866565
 CircleCollider2D:
@@ -1293,6 +1294,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &148514655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148514656}
+  - component: {fileID: 148514657}
+  m_Layer: 0
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148514656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148514655}
+  m_LocalRotation: {x: -0, y: -0, z: -0.013094811, w: 0.9999143}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 66866563}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148514657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148514655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.8773585, g: 0.18623178, b: 0.18623178, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 1.2920996
+  m_PointLightOuterRadius: 2.9442933
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &176908910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1788,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &229538282
 BoxCollider2D:
@@ -2375,7 +2448,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &311122587
 BoxCollider2D:
@@ -2493,7 +2566,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &317724695
 BoxCollider2D:
@@ -2904,7 +2977,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &354205336
 BoxCollider2D:
@@ -3022,7 +3095,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &374002248
 BoxCollider2D:
@@ -3688,7 +3761,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &438560473
 BoxCollider2D:
@@ -4676,7 +4749,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &491561245
 BoxCollider2D:
@@ -6266,6 +6339,7 @@ MonoBehaviour:
   mateoAdentroY: 0
   mateoAfueraX: 0
   mateoAfueraY: 0
+  velo: 3
   puertaAbierta: {fileID: -982712705793107067, guid: 8b41537ff8ec4ca419983a2a9e170fc9, type: 3}
   puerta: {fileID: 793401918}
 --- !u!61 &706731905
@@ -6464,7 +6538,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 2
 --- !u!61 &735637091
 BoxCollider2D:
@@ -7215,8 +7289,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825883468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.709999, y: 34.929993, z: 0}
-  m_LocalScale: {x: 0.6521334, y: 2.8418424, z: 1}
+  m_LocalPosition: {x: -10.77, y: 34.0711, z: 0}
+  m_LocalScale: {x: 0.6521334, y: 6.639681, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -7436,7 +7510,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &895167109
 BoxCollider2D:
@@ -7699,7 +7773,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &902248608
 BoxCollider2D:
@@ -8358,7 +8432,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &961619049
 BoxCollider2D:
@@ -9492,7 +9566,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &1058734982
 BoxCollider2D:
@@ -9985,7 +10059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106628763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.953199, y: 33.151, z: 0}
+  m_LocalPosition: {x: 9.92, y: 33.19, z: 0}
   m_LocalScale: {x: 1.0268327, y: 1.0248, z: 1}
   m_Children: []
   m_Father: {fileID: 1601370544}
@@ -10415,7 +10489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151467615}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.419998, y: 3.0400085, z: 0}
+  m_LocalPosition: {x: 19.87, y: 2.92, z: 0}
   m_LocalScale: {x: 1.3717, y: 1.3717, z: 1.3717}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11019,7 +11093,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &1207756547
 BoxCollider2D:
@@ -11541,7 +11615,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &1237222080
 BoxCollider2D:
@@ -13783,7 +13857,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 6
 --- !u!61 &1497261958
 BoxCollider2D:
@@ -14140,7 +14214,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 2
 --- !u!61 &1544344727
 BoxCollider2D:
@@ -16110,7 +16184,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 9
 --- !u!61 &1757522956
 BoxCollider2D:
@@ -16387,7 +16461,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &1762247639
 BoxCollider2D:
@@ -16505,7 +16579,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 2
 --- !u!61 &1763877600
 BoxCollider2D:
@@ -18916,7 +18990,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &2001090051
 BoxCollider2D:
@@ -19532,7 +19606,7 @@ MonoBehaviour:
   pentagrama: {fileID: 0}
   objetoFinal: {fileID: 0}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 3
 --- !u!61 &2044796949
 BoxCollider2D:
@@ -19664,7 +19738,7 @@ MonoBehaviour:
   pentagrama: {fileID: 66866561}
   objetoFinal: {fileID: 2047967025}
   timer: {fileID: 0}
-  velo: 0
+  velo: 3
   casos: 7
 --- !u!212 &2047967027
 SpriteRenderer:
@@ -20760,7 +20834,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 880071134, guid: 91c3e9f01c471134e8c264f47c581106, type: 3}
       propertyPath: velo
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880071134, guid: 91c3e9f01c471134e8c264f47c581106, type: 3}
       propertyPath: vidas

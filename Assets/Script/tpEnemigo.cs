@@ -55,14 +55,14 @@ public class tpEnemigo : MonoBehaviour
 
                 case TP_ENEMIGO.HABITACION_1:
 
-                    eltripas.position = new Vector2(2.91f, 34.97f);
+                    eltripas.position = new Vector2(4.12f, 35.04f);
                     audioSrc.Play();
                     StartCoroutine(esperar());
                     break;
 
                 case TP_ENEMIGO.BANO_2:
 
-                    eltripas.position = new Vector2(-11.40f, 35.12f);
+                    eltripas.position = new Vector2(-19.35f, 33.68f);
                     audioSrc.Play();
                     StartCoroutine(esperar());
                     break;

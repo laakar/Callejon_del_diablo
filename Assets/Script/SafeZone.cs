@@ -17,7 +17,7 @@ public class SafeZone : MonoBehaviour
     public Transform tripasTrans;
     public AudioSource cancionFea;
     public AudioSource cancionLinda;
-    public float mateoAdentroX, mateoAdentroY, mateoAfueraX, mateoAfueraY;
+    public float mateoAdentroX, mateoAdentroY, mateoAfueraX, mateoAfueraY, velo;
 
     public Sprite puertaAbierta;
     public GameObject puerta;
@@ -46,7 +46,7 @@ public class SafeZone : MonoBehaviour
             if(!playerSafe)
             {
                 puerta.GetComponent<SpriteRenderer>().sprite = puertaAbierta;
-                puerta.GetComponent<BoxCollider2D>().isTrigger = true;
+                puerta.GetComponent<BoxCollider2D>().isTrigger = false;
 
                 cancionFea.Stop();
                 cancionLinda.Play();
@@ -67,6 +67,7 @@ public class SafeZone : MonoBehaviour
                 cancionLinda.Stop();
                 cancionFea.Play();
                 elTripas.SetActive(true);
+                IA.instancia.velocidad = velo;
                 playerTrans.SetPositionAndRotation(new Vector3(unsafeX, unsafeY), new Quaternion(0, 0, 0, 0));
                 playerSafe = false;
                 luzSegura.SetActive(false);
