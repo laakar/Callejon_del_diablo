@@ -56,7 +56,7 @@ public class enumObjetos : MonoBehaviour
 
     IEnumerator DagobertoMomentoXd()
     {
-        Gamemanager.instancia.Showtext("Esta es la chaqueta que me pidió el fantasma. Su nombre es Dagoberto.");
+        Gamemanager.instancia.Showtext("Esta es la tarjeta que me pidió el fantasma. Su nombre es Dagoberto.");
         AnastacioMomento.instancia.tarjetaMomento = true;
         yield return new WaitForSecondsRealtime(2f);
         IA.instancia.velocidad = velo;

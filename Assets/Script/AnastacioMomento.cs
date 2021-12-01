@@ -48,7 +48,7 @@ public class AnastacioMomento : MonoBehaviour
             if(!primerEncuentro && !tarjetaMomento)
             {
                 Gamemanager.instancia.Showtext(primerTexto);
-                primerEncuentro = false;
+                primerEncuentro = true;
                 tarjeta.SetActive(true);
             }
             else if(primerEncuentro && !tarjetaMomento)

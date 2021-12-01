@@ -7567,9 +7567,9 @@ GameObject:
   - component: {fileID: 1102493126}
   - component: {fileID: 1102493125}
   - component: {fileID: 1102493124}
-  - component: {fileID: 1102493123}
   - component: {fileID: 1102493128}
   - component: {fileID: 1102493127}
+  - component: {fileID: 1102493123}
   m_Layer: 0
   m_Name: Mateo 2
   m_TagString: mateo
@@ -7586,7 +7586,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102493122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cde80007a95e81f43ad3fa0df5ce923e, type: 3}
+  m_Script: {fileID: 11500000, guid: 585491f7539a3a24d9a277e9989f1a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 3.8
