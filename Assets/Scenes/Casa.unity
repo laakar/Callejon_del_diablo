@@ -20832,6 +20832,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 880071133, guid: 91c3e9f01c471134e8c264f47c581106, type: 3}
+      propertyPath: llavePuertaUno
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880071133, guid: 91c3e9f01c471134e8c264f47c581106, type: 3}
+      propertyPath: llavePuertaFinal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 880071134, guid: 91c3e9f01c471134e8c264f47c581106, type: 3}
       propertyPath: velo
       value: 3

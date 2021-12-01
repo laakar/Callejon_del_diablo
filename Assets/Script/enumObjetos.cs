@@ -187,6 +187,7 @@ public class enumObjetos : MonoBehaviour
                 case POSIBLES_CASOS.PUERTA_FINAL:
                     if (GameObject.FindGameObjectWithTag("Player").GetComponent<xd>().llavePuertaFinal == true)
                     {
+                        IA.instancia.velocidad = velo;
                         puertaFinal.SetActive(false);
                     }
                     else
