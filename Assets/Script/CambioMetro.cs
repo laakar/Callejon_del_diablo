@@ -27,7 +27,6 @@ public class CambioMetro : MonoBehaviour
     IEnumerator Pasar()
     {
         yield return new WaitForSecondsRealtime(2f);
-        Gamemanager.instancia.Hidetext();
         SceneManager.LoadScene("Final", LoadSceneMode.Single);
     }
     void Update()
